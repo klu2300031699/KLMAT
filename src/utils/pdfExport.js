@@ -41,21 +41,16 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
     doc.roundedRect(yearBoxX, yearBoxY, yearBoxWidth, yearBoxHeight, radius, radius)
     doc.text('2025', yearBoxX + yearBoxWidth / 2, yearBoxY + 8, { align: 'center' })
     
-  // Set name in top right corner (reduced size)
-  const setBoxWidth = 32
-  const setBoxHeight = 10
+  // Set name in top right corner (matching year box size and style)
+  const setBoxWidth = 25
+  const setBoxHeight = 12
     const setBoxX = pageWidth - margin - setBoxWidth
     const setBoxY = 10
     doc.roundedRect(setBoxX, setBoxY, setBoxWidth, setBoxHeight, radius, radius)
-  // Center text horizontally and vertically inside the smaller box
-  const setBoxFontSize = 9
-  doc.setFontSize(setBoxFontSize)
+  // Center text horizontally and vertically (same as year box)
+  doc.setFontSize(11)
   doc.setFont('helvetica', 'bold')
-  // y for jsPDF text is baseline — offset slightly to vertically center
-  const setBoxTextY = setBoxY + setBoxHeight / 2 + setBoxFontSize / 3
-  doc.text(fileName, setBoxX + setBoxWidth / 2, setBoxTextY, { align: 'center' })
-  // restore header font later when needed
-  doc.setFont('helvetica', 'bold')
+  doc.text(fileName, setBoxX + setBoxWidth / 2, setBoxY + 8, { align: 'center' })
     
     // Subject heading in center (only at start of new subject)
     if (isSubjectStart) {
