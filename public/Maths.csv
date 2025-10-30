@@ -1,0 +1,51 @@
+Q_No,question,option 1,option 2,option 3,option 4,answer
+1,What is 15 multiplied by 4?,50,60,70,80,60
+2,If x + 7 = 12 what is x?,3,4,5,6,5
+3,What is the area of a rectangle with length 10 and width 5?,15,25,50,100,50
+4,What is 5^3?,15,25,125,625,125
+5,Convert 0.75 to a fraction in simplest form.,3/4,7/10,1/4,4/5,3/4
+6,What is the perimeter of a square with side length 8?,16,32,64,4,32
+7,Simplify: 3(2x - 1) + 5,6x + 2,6x + 4,6x - 2,6x - 4,6x + 2
+8,What is the mean (average) of 2 4 6 and 8?,4,5,6,20,5
+9,How many degrees are in a right angle?,45,90,180,360,90
+10,What is the result of 100 ÷ 5 + 10?,20,30,12,60,30
+11,What is the value of pi rounded to two decimal places?,3.14,3.15,3.10,3.20,3.14
+12,Solve for y: 2y - 5 = 15,5,10,20,25,10
+13,What is 1/2 + 1/4?,2/6,3/4,1/3,1/2,3/4
+14,What is 15% of 200?,15,20,30,40,30
+15,How many sides does a triangle have?,2,3,4,5,3
+16,What is the next number in the sequence 1 4 9 16 ...?,20,25,36,49,25
+17,If a shirt costs $40 after a 10% discount what was the original price?,$44.44,$45,$50,$42,$44.44
+18,What is the circumference of a circle with a radius of 7 (use 22/7 for pi)?,22,44,49,154,44
+19,Which type of number has exactly two factors (1 and itself)?,Even,Odd,Composite,Prime,Prime
+20,Calculate: -5 + 8 - 2,-5,1,3,15,1
+21,What is the least common multiple (LCM) of 4 and 6?,12,24,6,4,12
+22,Convert 2.5 meters to centimeters.,25 cm,250 cm,0.025 cm,2500 cm,250 cm
+23,What is the probability of rolling a 6 on a standard six-sided die?,1/2,1/6,5/6,1,1/6
+24,Simplify the ratio 15:20.,3:4,1:2,5:4,3:5,3:4
+25,Evaluate: (4 + 2) × 3 - 1,17,21,11,15,17
+26,What is the sum of the interior angles of a quadrilateral?,90,180,360,540,360
+27,If a=3 and b=4 what is a^2 + b^2?,7,14,25,49,25
+28,What is the cube root of 27?,3,9,6,5,3
+29,What is the value of √144?,10,12,14,16,12
+30,How many vertices does a cube have?,6,8,12,4,8
+31,What is the result of 1 - 1/5?,4/5,1/5,1,5/5,4/5
+32,Which property is shown: a(b + c) = ab + ac?,Associative,Commutative,Identity,Distributive,Distributive
+33,What is the gradient (slope) of the line y = 3x - 2?,-2,3,1,0,3
+34,If you flip a fair coin twice what is the probability of getting two heads (HH)?,1/2,1/4,3/4,1/8,1/4
+35,What is 10^4?,1000,10000,100000,100,10000
+36,What is 5 as a percentage?,5%,50%,500%,0.05%,500%
+37,Solve the inequality: x - 3 > 2,x > 1,x < 5,x > 5,x < 1,x > 5
+38,What is the product of two negative numbers?,Positive,Negative,Zero,Undefined,Positive
+39,What is the complementary angle to 30°?,60°,90°,150°,180°,60°
+40,Factorize: x^2 - 9,(x-3)^2,(x+3)^2,(x-3)(x+3),x(x-9),(x-3)(x+3)
+41,What is the highest common factor (HCF) of 12 and 18?,3,6,12,18,6
+42,What is the approximate value of √2?,1.732,1.414,1.618,1.212,1.414
+43,If the time is 10:30 AM what time will it be 4 hours later?,2:30 PM,1:30 PM,1:30 AM,3:30 PM,2:30 PM
+44,What is the formula for the area of a circle?,pi r,2pi r,pi r^2,2r,pi r^2
+45,How many months are in 2½ years?,24,30,28,32,30
+46,What is the scientific notation for 5,000,000?,5 × 10^5,5 × 10^6,5 × 10^7,50 × 10^5,5 × 10^6
+47,What is the name for a polygon with eight sides?,Pentagon,Hexagon,Heptagon,Octagon,Octagon
+48,What is the formula for calculating simple interest?,P+I,PRT,P(1+RT),PRT ÷ 100,PRT ÷ 100
+49,Calculate: (1/2 × 2/3 × 3/4),6/24,1/4,2/9,1/3,1/4
+50,If a temperature is -5°C and it drops by 10°C what is the new temperature?,-5°C,5°C,-15°C,15°C,-15°C

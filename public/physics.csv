@@ -1,0 +1,51 @@
+Q_No,Question,Option 1,Option 2,Option 3,Option 4,Answer
+1,What is the SI unit of force?,Joule,Watt,Newton,Pascal,Newton
+2,Which of these is a scalar quantity?,Velocity,Momentum,Acceleration,Mass,Mass
+3,The rate of change of velocity is called?,Speed,Displacement,Acceleration,Force,Acceleration
+4,What is the formula for calculating work done?,Force * Mass,Force / Distance,Force * Distance,Mass * Acceleration,Force * Distance
+5,Which law states that for every action there is an equal and opposite reaction?,Newton's 1st Law,Newton's 2nd Law,Newton's 3rd Law,Law of Conservation of Energy,Newton's 3rd Law
+6,What is the unit of electric resistance?,Ampere,Volt,Ohm,Coulomb,Ohm
+7,Sound waves travel fastest in which medium?,Vacuum,Gas,Liquid,Solid,Solid
+8,What is the speed of light in a vacuum (approximate)?,3 x 10^5 m/s,3 x 10^8 m/s,3 x 10^10 m/s,3 x 10^3 m/s,3 x 10^8 m/s
+9,Which phenomenon causes a straight stick to appear bent in water?,Reflection,Diffraction,Refraction,Total internal reflection,Refraction
+10,The conversion of electrical energy into mechanical energy is the principle behind which device?,Generator,Motor,Transformer,Battery,Motor
+11,What is potential energy due to gravity given by?,mgh,1/2 mv^2,F=ma,P/t,mgh
+12,What instrument is used to measure current?,Voltmeter,Ammeter,Barometer,Ohmmeter,Ammeter
+13,What is the SI unit of power?,Joule,Newton,Watt,Hertz,Watt
+14,Which color of visible light has the longest wavelength?,Blue,Green,Red,Violet,Red
+15,The total energy of an isolated system remains constant This is the Law of Conservation of...,Mass,Momentum,Charge,Energy,Energy
+16,What is the standard atmospheric pressure at sea level (approximate)?,10 Pa,1000 Pa,10^5 Pa,10^10 Pa,10^5 Pa
+17,A magnifying glass is what type of lens?,Concave,Convex,Cylindrical,Plane,Convex
+18,What is the symbol for the unit of frequency?,Hz,N,W,A,Hz
+19,What force keeps a satellite in orbit around a planet?,Nuclear force,Magnetic force,Centrifugal force,Gravitational force,Gravitational force
+20,Heat transfer by conduction occurs primarily in...,Gases,Liquids,Solids,Vacuum,Solids
+21,What is the SI unit of pressure?,Joule,Pascal,Newton,Watt,Pascal
+22,Which quantity is conserved in elastic collisions?,Kinetic energy only,Momentum only,Both kinetic energy and momentum,Neither kinetic energy nor momentum,Both kinetic energy and momentum
+23,The apparent change in frequency of a wave due to relative motion between the source and the observer is called the...,Photoelectric effect,Doppler effect,Interference,Diffraction,Doppler effect
+24,What is the minimum temperature possible known as absolute zero?,-273.15 °C,0 °C,100 °C,-459 °F,-273.15 °C
+25,A transformer works on the principle of...,Electrolysis,Mutual induction,Resistivity,Thermoelectric effect,Mutual induction
+26,The unit calorie is commonly used to measure what?,Force,Energy,Power,Volume,Energy
+27,What term describes the tendency of an object to resist changes in its state of motion?,Inertia,Momentum,Gravity,Friction,Inertia
+28,The bending of waves around obstacles or through openings is called?,Reflection,Refraction,Interference,Diffraction,Diffraction
+29,What type of radiation is used in a microwave oven?,Infrared,Ultraviolet,Radio waves,Gamma rays,Radio waves
+30,What is the definition of a magnetic field line?,Path of a positive charge,Path of a negative charge,Path a north pole would follow,Path a south pole would follow,Path a north pole would follow
+31,Which physical quantity is represented by the slope of a distance-time graph?,Acceleration,Velocity,Force,Displacement,Velocity
+32,The half-life of a radioactive substance is the time it takes for half of the substance to...,Disappear,Double,Decay,Explode,Decay
+33,A force of 10 N moves an object 5 m How much work is done?,2 J,5 J,50 J,15 J,50 J
+34,What causes the shimmering effect often seen above a hot road surface?,Reflection of light,Refraction due to air density changes,Absorption of heat,Diffraction of light,Refraction due to air density changes
+35,What is the SI unit of momentum?,N·s,kg·m/s,J·s,Both A and B,Both A and B
+36,The energy stored in a spring that is stretched or compressed is called...,Kinetic energy,Chemical energy,Elastic potential energy,Thermal energy,Elastic potential energy
+37,What is the relationship between wavelength (λ) frequency (f) and wave speed (v)?,v = λf,λ = vf,f = λv,v = f / λ,v = λf
+38,Which circuit component stores energy in an electric field?,Resistor,Inductor,Capacitor,Diode,Capacitor
+39,Which particle in an atom determines the element's chemical properties?,Proton,Neutron,Electron,Nucleus,Electron
+40,The tendency of a fluid to exert an upward force on a body immersed in it is called...,Viscosity,Surface tension,Buoyancy,Osmosis,Buoyancy
+41,What is the SI unit of temperature?,Celsius,Fahrenheit,Kelvin,Rankine,Kelvin
+42,According to Ohm's Law what is the formula for voltage (V)?,V = I/R,V = R/I,V = IR,V = I+R,V = IR
+43,What is a common example of a transverse wave?,Sound wave,Water wave,Compression wave,P-wave (seismic),Water wave
+44,In a converging lens where should an object be placed to form a real inverted and magnified image?,At the focal point,Beyond 2F,Between F and 2F,Between F and the lens,Between F and 2F
+45,What type of nuclear reaction powers the sun?,Fission,Fusion,Alpha decay,Beta decay,Fusion
+46,What is the unit of measurement for loudness of sound?,Hertz,Decibel,Ampere,Ohm,Decibel
+47,Which device uses the principle of electromagnetic induction to increase or decrease AC voltage?,Diode,Transistor,Capacitor,Transformer,Transformer
+48,What is the force required to accelerate a 2 kg mass at 5 m/s^2?,0.4 N,10 N,2.5 N,7 N,10 N
+49,The energy associated with an object's motion is called...,Potential energy,Chemical energy,Kinetic energy,Thermal energy,Kinetic energy
+50,What causes aurora borealis (Northern Lights)?,Solar wind interacting with Earth's magnetic field,Earth's volcanic activity,Reflection of sunlight off ice,Large meteors hitting the atmosphere,Solar wind interacting with Earth's magnetic field
