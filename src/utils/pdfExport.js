@@ -195,7 +195,7 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       doc.setFont('helvetica', 'normal')
       doc.setTextColor(0, 0, 0)
       
-      const questionNum = `${q.originalIndex + 1}.`
+      const questionNum = `Q${q.originalIndex + 1}.`
       const questionNumWidth = doc.getTextWidth(questionNum + '       ')
       
       // Write question text after number with proper spacing
