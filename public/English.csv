@@ -1,120 +1,118 @@
 Q_No,question,option 1,option 2,option 3,option 4,answer
-1,"Sentence Correction: The increase in sales of luxury cars, along with higher profits in the technology sector, have indicated a strong economic recovery.","have indicated","is indicating","are indicating","has indicated","has indicated"
-2,"Critical Reasoning: To save money, the city should replace its gasoline-powered garbage trucks with electric ones. Even though electric trucks cost more initially, the city will save substantially on fuel and maintenance. Which of the following most weakens the argument?","The electric trucks are quieter.","A neighboring city has yet to report savings.","The price of gasoline will remain stable.","The batteries must be replaced every three years at high cost.","The batteries must be replaced every three years at high cost."
-3,"Reading Comprehension: The concept of 'time management' overlooks 'energy management.' The most productive workers match tasks to peak energy. What is the main idea?","Time management strategies are ineffective.","All workers should delegate tasks.","Energy declines continuously during the day.","Productivity depends on matching tasks to energy levels.","Productivity depends on matching tasks to energy levels."
-4,"Sentence Correction: The artist intends to paint the mural, visiting local schools for inspiration, and the signing of autographs for fans.","to sign","the signing of","will sign","signed","to sign"
-5,"Critical Reasoning: All employees who work overtime are eligible for a bonus. Sarah is eligible for a bonus. Therefore, Sarah must have worked overtime. What is wrong?","The premises are inaccurate.","Circular reasoning.","It fails to consider other bonus eligibility.","Too narrowly focused.","It fails to consider other bonus eligibility."
-6,"Reading Comprehension: The Renaissance was not sudden but the culmination of centuries of development. What is the author’s purpose?","Define medieval vs Renaissance.","Argue Byzantine scholars founded it.","Detail banking system’s role.","Challenge misconception about origins.","Challenge misconception about origins."
-7,"Sentence Correction: Between she and I, the team captain decided to split the budget equally.","she and me","her and me","her and I","she and I","her and me"
-8,"Critical Reasoning: Helmet law reduced head injuries by 15%. What assumption does the argument depend on?","Non-head injuries also dropped.","Total bicycle trips did not decrease.","Law strictly enforced.","Helmets are high quality.","Total bicycle trips did not decrease."
-9,"Reading Comprehension: Early 20th-century management favored specialization. Why?","It increased flexibility.","It maximized performance.","It was cost-effective.","It reduced burnout.","It maximized performance."
-10,"Sentence Correction: The company’s new manufacturing process is efficient, allowing it to produce microchips at a lower cost than its leading competitor.","its leading competitor’s microchip cost","its leading competitor’s","that of its leading competitor","its leading competitor","its leading competitor’s"
-11,"Critical Reasoning: Employees taking long breaks report less satisfaction. What challenges this?","Short breaks cause less disruption.","Dissatisfied employees take long breaks.","Study only included high-stress jobs.","Short breaks increase productivity.","Dissatisfied employees take long breaks."
-12,"Reading Comprehension: The word 'cumulative' in the passage about inventions suggests—","Sudden innovation burst.","Slow additions and integrations.","Final rapid advancement stage.","Lone inventor’s dedication.","Slow additions and integrations."
-13,"Sentence Correction: Environmentalists call to reduce plastics to reduce ocean pollution and to safeguard marine ecosystems.","to safeguard","for the safeguarding of","safeguarding","it will safeguard","to safeguard"
-14,"Critical Reasoning: Zoo attendance rose 10% after giraffe feeding program. What helps evaluate claim?","Check for other new attractions.","Compare admission prices regionally.","Survey if patrons fed giraffes.","Check program revenue.","Check for other new attractions."
-15,"Reading Comprehension: Gas giants’ cores contain compressed elements called 'ice.' What must be true?","Jupiter’s core is less dense than Earth’s.","Cores cannot be defined as solid/liquid/gas.","All planetary cores differ from Earth’s.","Earth’s core includes ice.","Cores cannot be defined as solid/liquid/gas."
-16,"Sentence Correction: When heated, the compound expands less rapidly and has more tensile strength than previous samples.","previous samples","that of previous samples","do previous samples","it is for previous samples","that of previous samples"
-17,"Critical Reasoning: Classical music listeners report higher quality of life. Therefore, it improves life. What’s wrong?","Quality of life undefined.","Confuses correlation with causation.","Survey too broad.","Assumes honesty.","Confuses correlation with causation."
-18,"Reading Comprehension: Solar energy’s main barrier is storage inefficiency. What’s the purpose?","Argue solar is cheaper.","Identify technical hurdle.","Propose new battery tech.","Contrast solar vs power plants.","Identify technical hurdle."
-19,"Sentence Correction: The company’s decision to move its headquarters, which was a surprise for even the senior executives, necessitated an overhaul.","surprised to","a surprising event for","a surprise for","surprising to","a surprise for"
-20,"Sentence Correction: Having been invented by the same Swiss chef, many people mistakenly believe fondue and raclette are identical.","The dishes, having been invented...","It is mistakenly believed...","Having been invented...","Because they were invented by the same chef...","Because they were invented by the same chef..."
-21,"Critical Reasoning: The cream with Compound Z guarantees ad success since ads need novel ingredients. Flaw?","Ignores harvesting difficulty.","Relies on anecdotal data.","Assumes rarity = effectiveness.","Mistakes necessary for sufficient condition.","Mistakes necessary for sufficient condition."
-22,"Sentence Correction: Only in the U.S. do prices for prescription drugs are significantly higher than elsewhere.","prices are","are prices","do prices remain","do prices are","do prices remain"
-23,"Reading Comprehension: 'Punctuated equilibrium' has long stasis interrupted by rapid change. 'Genetic inertia' is used to—","Clarify rapid change mechanism.","Introduce gradualism tenet.","Show faulty genetics.","Dismiss incorrect stasis explanation.","Dismiss incorrect stasis explanation."
-24,"Critical Reasoning: Despite higher fuel taxes, driving distance stayed same as other prices fell. Which principle is shown?","Behavior reversed by technology.","Policies must target directly.","Weak incentives fail.","Price disincentives can be undermined by other conditions.","Price disincentives can be undermined by other conditions."
-25,"Sentence Correction: The new software is not only beneficial for generating sales leads, but it is also useful for communication.","but it is also useful","but it also being useful","but also useful","and it is useful as well","but also useful"
-26,"Reading Comprehension: New evidence shows Neolithic farming transition was gradual. The author would least agree with:","Social needs influenced farming.","Farming wasn’t sole food source.","Shift due to food scarcity.","Adoption was gradual.","Shift due to food scarcity."
-27,"Critical Reasoning: Campaign to eat vegetables ignores smoking and exercise. Critics assume—","Vegetables may cause harm.","Goal is to eliminate heart disease.","Smoking/exercise are bigger risks.","Vegetable eaters don’t smoke.","Smoking/exercise are bigger risks."
-28,"Reading Comprehension: Moon formed from impact, but isotopic similarity unexplained. Author’s attitude:","Neutral.","Dismissive of main theory.","Qualified acceptance.","Enthusiastic endorsement.","Qualified acceptance."
-29,"Critical Reasoning: Bird with long legs but flying features. If initial hypothesis (flightless) is true, what fits?","Vestige from flying ancestor.","Adapted for swimming.","Running preceded flight.","Ancestor of ostriches.","Vestige from flying ancestor."
-30,"Sentence Correction: The company’s profits has increased steadily over the past decade.","has increased steadily","have increased steadily","are increasing steadily","had increased steadily","have increased steadily"
-31,"Critical Reasoning: All healthy forests contain fungi. Forest A has none, so it’s unhealthy.","All fungi are beneficial.","No forest without fungi is healthy.","Health depends only on fungi.","Forest A is similar to others.","No forest without fungi is healthy."
-32,"Reading Comprehension: Social media can enhance collaboration.","Negative","Neutral","Cautiously positive","Strongly negative","Cautiously positive"
-33,"Sentence Correction: Neither the teacher nor the students was ready for the presentation.","was","were","have been","are","were"
-34,"Critical Reasoning: Mayor says highway reduces traffic, but studies show more cars.","Commute times shorten.","New roads attract more cars.","Population declines.","Transit expanding.","New roads attract more cars."
-35,"Reading Comprehension: Online education can be as effective as classroom learning. What strengthens?","Students prefer classes.","Online = in-person performance.","Tech distracts.","Teachers resist tools.","Online = in-person performance."
-36,"Sentence Correction: The museum’s collection of sculptures are admired.","are admired","have admired","is admired","were admired","is admired"
-37,"Critical Reasoning: Coffee drinkers healthier, so coffee causes health. Flaw?","Coffee drinkers exercise more.","Coffee has caffeine.","People dislike coffee.","Some coffee has sugar.","Coffee drinkers exercise more."
-38,"Reading Comprehension: Bees recognize faces. Main idea:","Bees are dangerous.","Bees are smarter than thought.","Bees trained for tests.","Bee intelligence is new.","Bees are smarter than thought."
-39,"Sentence Correction: Each of the students have submitted their projects.","have submitted","have been submitting","has submitted","submits","has submitted"
-40,"Critical Reasoning: Bike lanes added but congestion remains.","Fewer own cars.","Most prefer driving.","Bike lanes reduce car lanes.","Gas prices dropped.","Bike lanes reduce car lanes."
-41,"Sentence Correction: Software allows users to track expenses efficiently and managing budgets easily.","to track...and managing","to track...and to manage","to track efficiently and manage","track...and manage","to track...and to manage"
-42,"Reading Comprehension: Economic growth ≠ happiness.","GDP measures happiness.","Happiness > income.","Rich countries unhappy.","Well-being unmeasurable.","Happiness > income."
-43,"Critical Reasoning: Students eating breakfast perform better. Strengthen?","Skipping breakfast = less sleep.","Eat breakfast & exercise.","Scores improve after breakfast.","Breakfast = sugar.","Scores improve after breakfast."
-44,"Sentence Correction: If the committee was knowing about the error, it would have acted sooner.","was knowing","knew","has known","would know","knew"
-45,"Reading Comprehension: Technological innovation—","Leads to unemployment","Can create/eliminate jobs","Should be avoided","Helps corporations only","Can create/eliminate jobs"
-46,"Sentence Correction: The number of tourists visiting the island have increased dramatically.","have increased","are increasing","has increased","was increasing","has increased"
-47,"Critical Reasoning: Banning plastic bags reduces pollution, but paper uses more energy.","People reuse paper.","Plastic recyclable.","Ban shifts pollution to paper.","Shoppers support ban.","Ban shifts pollution to paper."
-48,"Sentence Correction: The manager, along with assistants, are preparing report.","are preparing","were preparing","is preparing","have prepared","is preparing"
-49,"Critical Reasoning: New transport built to reduce pollution, but emissions unchanged.","Few use transport.","More trains added.","Population decreased.","Fuel prices increased.","Few use transport."
-50,"Critical Reasoning: Critics say online news spreads misinformation. Readers verify facts.","Some don’t fact-check.","Fact-checking reduces misinformation.","Readers skeptical.","Print has errors.","Fact-checking reduces misinformation."
-51,"Sentence Correction: Profits this quarter, although lower than expected, reflects a stable trend.","reflects","have reflected","reflect","was reflecting","reflect"
-52,"Reading Comprehension: Renewable energy grows, fossil fuels remain dominant due to inertia.","Renewables replaced fossil fuels.","Fossil use persists despite alternatives.","Governments favor renewables.","Fossil fuels declining.","Fossil use persists despite alternatives."
-53,"Critical Reasoning: Nature photos reduce stress. Which supports?","Heart rates drop after viewing.","People like animals.","Cities cause stress.","Any photo reduces stress.","Heart rates drop after viewing."
-54,"Sentence Correction: Not only students but also teacher enjoy playing piano.","enjoy playing","enjoys playing","enjoying to play","enjoy to play","enjoys playing"
-55,"Critical Reasoning: Organic food healthier? No nutritional difference.","Organic unsafe.","Claims overstated.","Stop buying organic.","Misunderstand labels.","Claims overstated."
-56,"Sentence Correction: New regulations require that each company disclose its records.","disclose","discloses","disclosed","must disclose","disclose"
-57,"Reading Comprehension: Remote work reduces innovation due to fewer interactions.","Always decreases innovation.","Depends on informal contact.","Office more efficient.","Tech can’t replace office.","Depends on informal contact."
-58,"Critical Reasoning: Green spaces reduce crime.","Residents feel connected.","Crime varies seasonally.","Reduces stress → better behavior.","Police presence higher.","Reduces stress → better behavior."
-59,"Sentence Correction: The committee insists that every member be punctual at meetings.","be punctual","is punctual","are punctual","was punctual","be punctual"
-60,"Choose the synonym of 'Rapid'","Slow","Fast","Calm","Lazy","Fast"
-61,"Antonym of 'Brave'","Courageous","Coward","Fearless","Bold","Coward"
-62,"She ___ to the market yesterday.","go","going","went","gone","went"
-63,"Choose the correct spelling","Acomodation","Accommodation","Accomodation","Acommadation","Accommodation"
-64,"___ apple a day keeps the doctor away.","An","A","The","At","An"
-65,"He ___ here since morning.","is","was","has been","had been","has been"
-66,"Change to passive: They are playing cricket.","Cricket has been played by them.","Cricket was played by them.","Cricket is being played by them.","Cricket is played by them.","Cricket is being played by them."
-67,"She is good ___ dancing.","At","In","By","On","At"
-68,"Select the synonym of 'Huge'","Tiny","Enormous","Small","Narrow","Enormous"
-69,"I ___ my homework.","finished","have finished","finishes","finish","have finished"
-70,"Opposite of 'Victory'","Success","Champion","Defeat","Win","Defeat"
-71,"He runs ___ than me.","fast","faster","fastest","more fast","faster"
-72,"Identify the correct sentence","He doesn’t likes tea.","He doesn’t like tea.","","","He doesn’t like tea."
-73,"Choose the synonym of 'Happy'","Sad","Angry","Joyful","Tired","Joyful"
-74,"The train ___ before we reached.","will leave","leaves","had left","is leaving","had left"
-75,"Choose the correct plural of 'Child'","Childs","Childes","Children","Childrens","Children"
-76,"Antonym of 'Accept'","Embrace","Approve","Reject","Welcome","Reject"
-77,"I prefer tea ___ coffee.","To","But","Than","In","To"
-78,"He came ___ he was invited.","So","If","Because","But","Because"
-79,"Choose the correct spelling","Beatiful","Beautyful","Beauterful","Beautiful","Beautiful"
-80,"Synonym of 'Brilliant'","Dull","Bright","Slow","Lazy","Bright"
-81,"Antonym of 'Calm'","Peaceful","Quiet","Angry","Silent","Angry"
-82,"He ___ to school every day.","go","goes","gone","going","goes"
-83,"Choose the correct spelling","Beggining","Begining","Beginning","Begginingg","Beginning"
-84,"___ umbrella is useful in rain.","A","An","The","At","An"
-85,"She ___ working since morning.","is","was","has been","had been","has been"
-86,"Change to passive: They built a bridge.","A bridge is built by them.","A bridge was built by them.","A bridge is being built by them.","A bridge has built by them.","A bridge was built by them."
-87,"He is fond ___ music.","at","in","of","with","of"
-88,"Synonym of 'Quick'","Slow","Fast","Lazy","Weak","Fast"
-89,"I ___ my lunch.","eat","ate","have eaten","eating","have eaten"
-90,"Opposite of 'Success'","Victory","Defeat","Win","Triumph","Defeat"
-91,"He runs ___ than his brother.","fast","faster","fastest","more fast","faster"
-92,"Identify the correct sentence","She don’t like coffee.","She doesn’t like coffee.","","","She doesn’t like coffee."
-93,"Synonym of 'Beautiful'","Ugly","Pretty","Bad","Dull","Pretty"
-94,"The film ___ before we arrived.","will start","started","had started","starts","had started"
-95,"Plural of 'Goose'","Gooses","Goose","Geese","Geeses","Geese"
-96,"Antonym of 'Reject'","Deny","Accept","Refuse","Oppose","Accept"
-97,"I prefer tea ___ juice.","than","to","from","over","to"
-98,"She stayed ___ it was raining.","but","although","because","so","because"
-99,"Correct spelling","Succesful","Successful","Successfull","Succesfull","Successful"
-100,"Synonym of 'Brave'","Cowardly","Bold","Weak","Fearful","Bold"
-101,"Antonym of 'Kind'","Rude","Soft","Gentle","Polite","Rude"
-102,"Fill in the blank: She ___ a letter yesterday.","writes","write","wrote","writing","wrote"
-103,"Correct spelling","Envirnoment","Environment","Enviroment","Enviornment","Environment"
-104,"Choose correct article: ___ honest man is respected.","A","An","The","No article","An"
-105,"Correct tense: He ___ here since morning.","is","has been","was","had been","has been"
-106,"Change to passive: She writes a story.","A story was written by her.","A story has written by her.","A story is written by her.","A story will be written by her.","A story is written by her."
-107,"Choose the right preposition: He depends ___ his parents.","on","in","at","over","on"
-108,"Synonym of 'Silent'","Loud","Quiet","Angry","Sad","Quiet"
-109,"Correct form: I ___ my breakfast already.","eat","eating","have eaten","ate","have eaten"
-110,"Opposite of 'Strong'","Weak","Tall","Heavy","Bright","Weak"
-111,"Choose the right word: He is ___ than his brother.","tall","taller","tallest","most tall","taller"
-112,"Identify correct sentence","She doesn’t likes coffee.","She doesn’t like coffee.","","","She doesn’t like coffee."
-113,"Synonym of 'Angry'","Calm","Furious","Sad","Cool","Furious"
-114,"Fill in the blank: The bus ___ before we reached.","will leave","left","had left","leaves","had left"
-115,"Plural of 'Mouse'","Mouses","Mice","Mouse","Mices","Mice"
-116,"Antonym of 'Accept'","Reject","Approve","Welcome","Permit","Reject"
-117,"Choose correct form: I prefer milk ___ tea.","over","than","to","from","to"
-118,"Correct conjunction: I studied hard ___ I passed.","but","because","so","though","so"
-119,"Correct spelling","Govrment","Government","Goverment","Govenment","Government"
+1,Choose the synonym of Rapid,Slow,Fast,Calm,Lazy,Fast
+2,Antonym of Brave,Courageous,Coward,Fearless,Bold,Coward
+3,She ___ to the market yesterday.,go,going,went,gone,went
+4,Choose the correct spelling,Acomodation,Accommodation,Accomodation,Acommadation,Accommodation
+5,___ apple a day keeps the doctor away.,An,A,The,At,An
+6,He ___ here since morning.,is,was,has been,had been,has been
+7,Change to passive: They are playing cricket.,Cricket has been played by them.,Cricket was played by them.,Cricket is being played by them.,Cricket is played by them.,Cricket is being played by them.
+8,She is good ___ dancing.,At,In,By,On,At
+9,Select the synonym of Huge,Tiny,Enormous,Small,Narrow,Enormous
+10,I ___ my homework.,finished,have finished,finishes,finish,have finished
+11,Opposite of Victory,Success,Champion,Defeat,Win,Defeat
+12,He runs ___ than me.,fast,faster,fastest,more fast,faster
+13,Identify the correct sentence,He doesn’t likes tea.,He doesn’t like tea.,He don’t like tea.,He not likes tea.,He doesn’t like tea.
+14,Choose the synonym of Happy,Sad,Angry,Joyful,Tired,Joyful
+15,The train ___ before we reached.,will leave,leaves,had left,is leaving,had left
+16,Choose the correct plural of Child,Childs,Childes,Children,Childrens,Children
+17,Antonym of Accept,Embrace,Approve,Reject,Welcome,Reject
+18,I prefer tea ___ coffee.,To,But,Than,In,To
+19,He came ___ he was invited.,So,If,Because,But,Because
+20,Choose the correct spelling,Beatiful,Beautyful,Beauterful,Beautiful,Beautiful
+21,Synonym of Brilliant,Dull,Bright,Slow,Lazy,Bright
+22,Antonym of Calm,Peaceful,Quiet,Angry,Silent,Angry
+23,He ___ to school every day.,go,goes,gone,going,goes
+24,Choose the correct spelling,Beggining,Begining,Beginning,Begginingg,Beginning
+25,___ umbrella is useful in rain.,A,An,The,At,An
+26,She ___ working since morning.,is,was,has been,had been,has been
+27,Change to passive: They built a bridge.,A bridge is built by them.,A bridge was built by them.,A bridge is being built by them.,A bridge has built by them.,A bridge was built by them.
+28,He is fond ___ music.,at,in,of,with,of
+29,Synonym of Quick,Slow,Fast,Lazy,Weak,Fast
+30,I ___ my lunch.,eat,ate,have eaten,eating,have eaten
+31,Opposite of Success,Victory,Defeat,Win,Triumph,Defeat
+32,He runs ___ than his brother.,fast,faster,fastest,more fast,faster
+33,Identify the correct sentence,She don’t like coffee.,She doesn’t like coffee.,He don’t like coffee.,He not likes coffee.,She doesn’t like coffee.
+34,Synonym of Beautiful,Ugly,Pretty,Bad,Dull,Pretty
+35,The film ___ before we arrived.,will start,started,had started,starts,had started
+36,Plural of Goose,Gooses,Goose,Geese,Geeses,Geese
+37,Antonym of Reject,Deny,Accept,Refuse,Oppose,Accept
+38,I prefer tea ___ juice.,than,to,from,over,to
+39,She stayed ___ it was raining.,but,although,because,so,because
+40,Correct spelling,Succesful,Successful,Successfull,Succesfull,Successful
+41,Synonym of Brave,Cowardly,Bold,Weak,Fearful,Bold
+42,Antonym of Kind,Rude,Soft,Gentle,Polite,Rude
+43,Fill in the blank: She ___ a letter yesterday.,writes,write,wrote,writing,wrote
+44,Correct spelling,Envirnoment,Environment,Enviroment,Enviornment,Environment
+45,Choose correct article: ___ honest man is respected.,A,An,The,No article,An
+46,Correct tense: He ___ here since morning.,is,has been,was,had been,has been
+47,Change to passive: She writes a story.,A story was written by her.,A story has written by her.,A story is written by her.,A story will be written by her.,A story is written by her.
+48,Choose the right preposition: He depends ___ his parents.,on,in,at,over,on
+49,Synonym of Silent,Loud,Quiet,Angry,Sad,Quiet
+50,Correct form: I ___ my breakfast already.,eat,eating,have eaten,ate,have eaten
+51,Opposite of Strong,Weak,Tall,Heavy,Bright,Weak
+52,Choose the right word: He is ___ than his brother.,tall,taller,tallest,most tall,taller
+53,Synonym of Angry,Calm,Furious,Sad,Cool,Furious
+54,Plural of Mouse,Mouses,Mice,Mouse,Mices,Mice
+55,Antonym of Accept,Reject,Approve,Welcome,Permit,Reject
+56,Correct conjunction: I studied hard ___ I passed.,but,because,so,though,so
+57,Correct spelling,Govrment,Government,Goverment,Govenment,Government
+58,Opposite of Frugal,Thrifty,Lavish,Economical,Prudent,Lavish
+59,Indirect speech: He said I am reading a book.,He said that he is reading a book.,He said that he was reading a book.,He said that I was reading a book.,He says that he was reading a book.,He said that he was reading a book.
+60,Correctly spelled word,Definately,Definetly,Definitely,Definatelye,Definitely
+61,Synonym of Abundant,Rare,Scarce,Plentiful,Meagre,Plentiful
+62,Correct form: If I ___ harder I would have passed.,study,had studied,studied,was studying,had studied
+63,Meaning of idiom: To turn a deaf ear,To ignore someone's advice,To listen carefully,To misunderstand,To insult someone,To ignore someone's advice
+64,Identify the grammatically correct sentence,Neither of the boys have done their work.,Neither of the boys has done his work.,Neither of the boys has done their work.,Neither of the boys have done his work.,Neither of the boys has done his work.
+65,Correct word: The new policy will come ___ effect from Monday.,into,in,to,with,into
+66,Synonym of Meticulous,Careless,Thorough,Casual,Rough,Thorough
+67,Correct preposition: He is addicted ___ coffee.,in,for,to,with,to
+68,Sentence free from error,Each of the players have received a prize.,Everyone are happy with the results.,Each of the players has received a prize.,Both of the statements are correct.,Each of the players has received a prize.
+69,Antonym of Obscure,Vague,Faint,Clear,Hidden,Clear
+70,Correctly spelled word,Mischevious,Mischievous,Mischivious,Mischievious,Mischievous
+71,Complete the sentence: Hardly had he reached the station ___ the train left.,than,when,that,then,when
+72,Synonym of Candid,Secretive,Frank,Dishonest,Cautious,Frank
+73,Error identification: She suggested me to visit the doctor.,suggested me to visit,suggested that I visit,suggested to me for visiting,suggested that I should visiting,suggested that I visit
+74,Meaning of idiom: Hit the nail on the head,To say something exactly right,To make a mistake,To start an argument,To exaggerate,To say something exactly right
+75,Appropriate word: The teacher spoke in a very ___ tone.,harshly,harsh,harshness,harshen,harsh
+76,Correct sentence,She is senior than me.,She is senior to me.,She is more senior than me.,She is most senior than me.,She is senior to me.
+77,Synonym of Ubiquitous,Rare,Scarce,Omnipresent,Hidden,Omnipresent
+78,Correct sentence,Neither she nor her friends is coming.,Neither she nor her friends are coming.,Neither she or her friends is coming.,Neither she or her friends are coming.,Neither she nor her friends are coming.
+79,Correctly spelled word,Acquaintence,Acquaintance,Aquantance,Aqaintance,Acquaintance
+80,Antonym of Transient,Permanent,Temporary,Momentary,Fleeting,Permanent
+81,Correct usage,He is one of those students who has never studied.,He is one of those students who have never studied.,He is one of those student who have never studied.,He is one of those student who has never studied.,He is one of those students who have never studied.
+82,Correct word: He is too ___ to admit his mistake.,proud,pride,prideful,pridefully,proud
+83,Indirect speech: He said Please help me.,He said me to help him.,He requested me to help him.,He told me to please help him.,He requested that I help him please.,He requested me to help him.
+84,Meaning of idiom: A blessing in disguise,A good thing that seemed bad at first,A punishment,A hidden danger,A false promise,A good thing that seemed bad at first
+85,Antonym of Fortunate,Lucky,Happy,Unlucky,Prosperous,Unlucky
+86,Correct form: By the time we arrived the show ___,has started,had started,started,was starting,had started
+87,Grammatically correct sentence,He as well as his friends were present.,He as well as his friends was present.,He as well as his friends are present.,He as well as his friends have been present.,He as well as his friends was present.
+88,Meaning: To beat around the bush,To avoid the main topic,To attack directly,To argue endlessly,To talk openly,To avoid the main topic
+89,Correctly spelled word,Bureacracy,Bureaucracy,Bureaocracy,Burocracy,Bureaucracy
+90,Synonym of Eloquent,Silent,Persuasive,Mute,Clumsy,Persuasive
+91,Error identification: He did not knew the answer.,did not knew,did not know,does not knew,not knew,did not know
+92,Antonym of Generous,Kind,Selfish,Helpful,Charitable,Selfish
+93,Correct usage: The committee ___ divided in its opinion.,is,are,were,be,is
+94,Correct word: The company will ___ its new policy next week.,effect,affect,enforce,announce,announce
+95,Meaning of idiom: Once in a blue moon,Happening frequently,Happening rarely,Happening twice,Happening occasionally,Happening rarely
+96,Correct sentence,He denied to go there.,He denied going there.,He denied for going there.,He denied that go there.,He denied going there.
+97,"Despite technological advancements reading printed books continues to be preferred by many. Readers argue that the tactile experience and lack of distractions make print superior to digital formats. What is the main reason people still prefer printed books?",They are cheaper than digital books,They provide a tactile experience and fewer distractions,They are more colorful,They can store more information,They provide a tactile experience and fewer distractions
+98,"Climate change has increased the frequency of floods and droughts across the globe. Countries are now investing heavily in renewable energy sources to combat this issue. What can be inferred from the passage?",Renewable energy causes climate change,Climate change is no longer a global issue,Nations are acting to reduce the effects of climate change,Floods are not caused by climate change,Nations are acting to reduce the effects of climate change
+99,"While social media connects people it has also been blamed for spreading misinformation rapidly. Responsible usage and fact-checking are essential to avoid confusion. The author's tone is:",Sarcastic,Analytical,Humorous,Indifferent,Analytical
+100,"Many corporations are adopting flexible work hours to enhance employee productivity. Studies show that when employees control their schedules overall job satisfaction increases. What does the passage primarily discuss?",Corporate profits,Flexible work schedules and job satisfaction,Employee training programs,Work-from-home challenges,Flexible work schedules and job satisfaction
+99,"While social media connects people, it has also been blamed for spreading misinformation rapidly. Responsible usage and fact-checking are essential to avoid confusion. The author’s tone is:",Sarcastic,Analytical,Humorous,Indifferent,Analytical
+100,"Many corporations are adopting flexible work hours to enhance employee productivity. Studies show that when employees control their schedules overall job satisfaction increases. What does the passage primarily discuss?",Corporate profits,Flexible work schedules and job satisfaction,Employee training programs,Work-from-home challenges,Flexible work schedules and job satisfaction
+101,"Artificial Intelligence is transforming industries but it also raises ethical concerns regarding privacy bias and employment. Which of the following best summarizes the passage?",AI creates only positive effects,AI has both benefits and ethical challenges,AI reduces unemployment,AI is mainly about robotics,AI has both benefits and ethical challenges
+102,"While online education provides flexibility it also demands self-discipline and motivation from learners. Which of the following is NOT mentioned as a feature of online learning?",Flexibility,Self-discipline,Motivation,Group activities,Group activities
+103,"Some people believe that success depends on luck while others argue that hard work is the key factor. However both elements often work together to achieve goals. The author's viewpoint is that:",Luck alone ensures success,Hard work alone ensures success,Both luck and hard work contribute to success,Success is unpredictable,Both luck and hard work contribute to success
+104,"Global warming leads to the melting of glaciers resulting in rising sea levels and threatening coastal communities. Which consequence is mentioned in the passage?",Earthquakes,Flooding in coastal areas,Air pollution,Volcanic eruptions,Flooding in coastal areas
+105,"Para-Jumble: A) He started walking along the road. B) It was getting dark. C) He decided to head home. D) John realized he was far from the village. Choose the correct order:",D → C → B → A,B → D → A → C,D → B → C → A,C → A → B → D,D → B → C → A
+107,"Para-Jumble: A) The sun disappeared behind the clouds. B) Suddenly the rain started pouring. C) The picnic was interrupted. D) Everyone rushed to find shelter. Choose the correct order:",A → B → D → C,B → A → C → D,A → B → C → D,D → C → A → B,A → B → C → D
+108,"Para-Jumble: A) Mobile phones have revolutionized communication. B) They allow instant connectivity across the globe. C) However overuse can lead to addiction. D) Therefore balance in usage is necessary. Choose the correct order:",A → B → C → D,C → B → A → D,B → A → D → C,A → C → D → B,A → B → C → D
+109,"Para-Jumble: A) Good leaders inspire confidence in others. B) They lead by example and maintain integrity. C) True leadership is about service not power. D) Hence people willingly follow them. Choose the correct order:",A → B → C → D,C → A → B → D,A → C → B → D,B → C → A → D,C → A → B → D
+110,"While traveling exposes people to new experiences it also challenges their comfort zones and encourages personal growth. Which of the following is the central idea?",Traveling is stressful,Traveling helps personal development,Traveling wastes time,Traveling is expensive,Traveling helps personal development
+111,"The invention of the printing press changed the world by making books more accessible and spreading knowledge widely. What was the primary impact of the printing press?",It made books rare,It limited education,It spread knowledge to more people,It decreased literacy,It spread knowledge to more people
+112,"Para-Jumble: A) Water scarcity is becoming a global concern. B) Overpopulation and pollution worsen the problem. C) Governments must promote water conservation. D) Without action future generations will suffer. Choose the correct order:",A → B → C → D,B → A → D → C,A → C → B → D,C → A → B → D,A → B → C → D
+113,"The success of any organization depends not only on technology but also on the collaboration among its employees. Which of the following is emphasized?",Only technology leads to success,Collaboration is as important as technology,Success depends solely on management,Employees should work individually,Collaboration is as important as technology
+114,"The internet has democratized information allowing anyone to publish their ideas. However this has also made it harder to distinguish credible sources. Which statement best captures the essence of the passage?",The internet provides only false information,The internet limits communication,Accessibility of information comes with reliability challenges,The internet has no impact on knowledge sharing,Accessibility of information comes with reliability challenges
+115,"Para-Jumble: A) Exercise keeps the body fit. B) It also improves mental health. C) Doctors recommend at least 30 minutes of activity daily. D) Hence regular exercise is essential for a healthy life. Choose the correct order:",A → B → C → D,B → A → C → D,A → C → B → D,C → B → A → D,A → B → C → D
+116,"Innovation often arises from failure. Each unsuccessful attempt teaches valuable lessons that guide future success. What message does the author convey?",Failure should be avoided,Innovation is accidental,Failure is a step toward success,Success depends only on luck,Failure is a step toward success

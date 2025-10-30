@@ -1,51 +1,151 @@
-Q_No,question,option 1,option 2,option 3,option 4,answer
-1,Who is known as the Father of the Nation in India?,Jawaharlal Nehru,Mahatma Gandhi,Sardar Patel,B. R. Ambedkar,Mahatma Gandhi
-2,What is the capital of Japan?,Beijing,Tokyo,Seoul,Hanoi,Tokyo
-3,Who invented the telephone?,Albert Einstein,Alexander Graham Bell,Isaac Newton,Thomas Edison,Alexander Graham Bell
-4,Which planet is known as the Red Planet?,Venus,Mars,Jupiter,Saturn,Mars
-5,Which is the largest ocean on Earth?,Atlantic Ocean,Indian Ocean,Pacific Ocean,Arctic Ocean,Pacific Ocean
-6,Who was the first President of India?,Mahatma Gandhi,Rajendra Prasad,Jawaharlal Nehru,Sardar Patel,Rajendra Prasad
-7,What is the national flower of India?,Lotus,Rose,Sunflower,Jasmine,Lotus
-8,Which animal is known as the ‘Ship of the Desert’?,Camel,Elephant,Horse,Donkey,Camel
-9,In which country is the Eiffel Tower located?,Italy,France,Spain,Germany,France
-10,Who discovered gravity?,Albert Einstein,Isaac Newton,Galileo Galilei,Charles Darwin,Isaac Newton
-11,Which is the largest planet in our solar system?,Earth,Venus,Jupiter,Saturn,Jupiter
-12,Who wrote the Indian National Anthem?,Rabindranath Tagore,Bankim Chandra Chatterjee,Sarojini Naidu,Sardar Patel,Rabindranath Tagore
-13,What is the capital of Australia?,Sydney,Canberra,Melbourne,Perth,Canberra
-14,Which gas do humans breathe in?,Carbon dioxide,Nitrogen,Oxygen,Helium,Oxygen
-15,Who painted the Mona Lisa?,Vincent van Gogh,Pablo Picasso,Leonardo da Vinci,Michelangelo,Leonardo da Vinci
-16,Which festival is known as the Festival of Lights?,Holi,Diwali,Eid,Christmas,Diwali
-17,Which is the longest river in the world?,Amazon,Nile,Ganga,Mississippi,Nile
-18,How many continents are there on Earth?,5,6,7,8,7
-19,Which is the national sport of Japan?,Football,Cricket,Sumo Wrestling,Hockey,Sumo Wrestling
-20,Who was the first man to walk on the moon?,Yuri Gagarin,Neil Armstrong,Buzz Aldrin,Michael Collins,Neil Armstrong
-21,Which metal is used to make coins?,Gold,Silver,Copper,Iron,Copper
-22,Which country gifted the Statue of Liberty to the USA?,Germany,France,Spain,Italy,France
-23,What is the capital of Canada?,Toronto,Ottawa,Vancouver,Montreal,Ottawa
-24,Which planet is closest to the Sun?,Venus,Mercury,Earth,Mars,Mercury
-25,Who discovered electricity?,Thomas Edison,Benjamin Franklin,Michael Faraday,James Watt,Benjamin Franklin
-26,Which is the smallest continent?,Africa,Europe,Australia,South America,Australia
-27,Which country is known as the Land of Rising Sun?,China,Japan,Korea,Thailand,Japan
-28,What is the currency of the United Kingdom?,Euro,Dollar,Pound Yen,Pound
-29,Which organ in the human body pumps blood?,Lungs,Heart,Brain,Stomach,Heart
-30,Which is the largest desert in the world?,Gobi,Sahara,Thar,Antarctic,Sahara
-31,In which year did India get independence?,1942,1945,1947,1950,1947
-32,Who is known as the Missile Man of India?,A. P. J. Abdul Kalam,C. V. Raman,Homi Bhabha,Vikram Sarabhai,A. P. J. Abdul Kalam
-33,What is the boiling point of water?,90°C,95°C,100°C,110°C,100°C
-34,Which planet is known for its rings?,Jupiter,Saturn,Neptune,Uranus,Saturn
-35,Who was the first woman Prime Minister of India?,Sonia Gandhi,Indira Gandhi,Pratibha Patil,Kiran Bedi,Indira Gandhi
-36,Which city is known as the Pink City of India?,Delhi,Jaipur,Agra,Chennai,Jaipur
-37,Which is the national bird of India?,Crow,Peacock,Parrot,Eagle,Peacock
-38,Which is the fastest land animal?,Tiger,Lion,Cheetah,Leopard,Cheetah
-39,Who wrote ‘Discovery of India’?,Mahatma Gandhi,Rajendra Prasad,Jawaharlal Nehru,Sardar Patel,Jawaharlal Nehru
-40,What is the chemical symbol of water?,H,O2,H2O,CO2,H2O
-41,Which festival marks the start of the harvest season in Punjab?,Pongal,Onam,Baisakhi,Holi,Baisakhi
-42,Who was the first woman to go to space?,Kalpana Chawla,Valentina Tereshkova,Sally Ride,Sunita Williams,Valentina Tereshkova
-43,Which Indian city is called the Silicon Valley of India?,Hyderabad,Chennai,Bengaluru,Pune,Bengaluru
-44,Who invented the light bulb?,Alexander Graham Bell,Thomas Edison,Isaac Newton,Albert Einstein,Thomas Edison
-45,Which is the largest mammal on Earth?,Elephant,Whale,Blue Whale,Hippopotamus,Blue Whale
-46,Which blood group is known as the universal donor?,A,B,AB,O,O
-47,Which is the national animal of India?,Lion,Elephant,Tiger,Leopard,Tiger
-48,What is the capital of Russia?,Moscow,Kiev,St. Petersburg,Minsk,Moscow
-49,How many players are there in a cricket team?,9,10,11,12,11
-50,Which is the smallest planet in our solar system?,Venus,Mercury,Mars,Pluto,Mercury
+Q_No,Question,Option 1,Option 2,Option 3,Option 4,Answer
+1,"Who is known as the Father of the Nation in India?",Mahatma Gandhi,Jawaharlal Nehru,Sardar Patel,Bhagat Singh,Mahatma Gandhi
+2,"What is the national animal of India?",Elephant,Tiger,Lion,Leopard,Tiger
+3,"Which planet is known as the Red Planet?",Earth,Mars,Venus,Jupiter,Mars
+4,"What is the capital of India?",Mumbai,New Delhi,Kolkata,Chennai,New Delhi
+5,"Which is the smallest continent in the world?",Europe,Australia,Antarctica,South America,Australia
+6,"Who wrote the National Anthem of India?",Bankim Chandra Chatterjee,Rabindranath Tagore,Sarojini Naidu,Sri Aurobindo,Rabindranath Tagore
+7,"What is the national flower of India?",Lotus,Rose,Sunflower,Jasmine,Lotus
+8,"Which is the longest river in India?",Ganga,Yamuna,Brahmaputra,Godavari,Ganga
+9,"Which festival is known as the Festival of Lights?",Diwali,Holi,Eid,Christmas,Diwali
+10,"Which organ in the human body purifies blood?",Lungs,Heart,Kidney,Brain,Kidney
+11,"Who was the first Prime Minister of India?",Mahatma Gandhi,Jawaharlal Nehru,Dr. Rajendra Prasad,Sardar Patel,Jawaharlal Nehru
+12,"Which planet is closest to the Sun?",Venus,Mercury,Earth,Mars,Mercury
+13,"Which Indian city is known as the Pink City?",Udaipur,Jaipur,Jodhpur,Agra,Jaipur
+14,"How many players are there in a cricket team?",9,10,11,12,11
+15,"What is the national bird of India?",Sparrow,Parrot,Peacock,Eagle,Peacock
+16,"Which ocean is the largest in the world?",Atlantic,Indian,Pacific,Arctic,Pacific
+17,"Which country is known as the Land of Rising Sun?",China,Japan,Thailand,Korea,Japan
+18,"In which year did India gain independence?",1945,1946,1947,1948,1947
+19,"What is the national currency of India?",Dollar,Pound,Rupee,Dinar,Rupee
+20,"Which Indian monument is also known as the symbol of love?",Qutub Minar,Red Fort,Taj Mahal,India Gate,Taj Mahal
+21,"Which gas do plants release during photosynthesis?",Carbon Dioxide,Oxygen,Nitrogen,Hydrogen,Oxygen
+22,"Who invented the telephone?",Thomas Edison,Alexander Graham Bell,Albert Einstein,Isaac Newton,Alexander Graham Bell
+23,"Which is the largest planet in the solar system?",Earth,Saturn,Jupiter,Neptune,Jupiter
+24,"Which metal is used to make wires?",Iron,Silver,Copper,Gold,Copper
+25,"Which festival marks the start of the harvest season in Punjab?",Lohri,Baisakhi,Holi,Diwali,Baisakhi
+26,"Which is the national sport of India?",Hockey,Cricket,Football,Kabaddi,Hockey
+27,"Who is known as the Iron Man of India?",Mahatma Gandhi,B. R. Ambedkar,Sardar Vallabhbhai Patel,Rajendra Prasad,Sardar Vallabhbhai Patel
+28,"Which planet is known for its rings?",Mars,Venus,Saturn,Jupiter,Saturn
+29,"What is the currency of the United States?",Dollar,Pound,Euro,Yen,Dollar
+30,"Which festival is known as the Festival of Colors?",Diwali,Holi,Eid,Navratri,Holi
+31,"Who discovered gravity?",Charles Darwin,Albert Einstein,Isaac Newton,Galileo Galilei,Isaac Newton
+32,"Which animal is known as the Ship of the Desert?",Horse,Camel,Elephant,Donkey,Camel
+33,"Which is the largest state in India by area?",Uttar Pradesh,Rajasthan,Madhya Pradesh,Maharashtra,Rajasthan
+34,"What is the national fruit of India?",Mango,Apple,Banana,Orange,Mango
+35,"Which country gifted the Statue of Liberty to the USA?",Germany,France,Italy,Canada,France
+36,"Who was the first President of India?",Dr. Rajendra Prasad,Sardar Patel,Subhash Chandra Bose,Jawaharlal Nehru,Dr. Rajendra Prasad
+37,"Which planet is known as the Blue Planet?",Earth,Mars,Venus,Neptune,Earth
+38,"Which Indian city is called the City of Joy?",Mumbai,Kolkata,Chennai,Delhi,Kolkata
+39,"Which is the largest ocean in the world?",Indian,Pacific,Atlantic,Arctic,Pacific
+40,"Which organ controls the entire human body?",Heart,Lungs,Brain,Stomach,Brain
+41,"Who is known as the Missile Man of India?",Dr. APJ Abdul Kalam,Homi Bhabha,Vikram Sarabhai,Dr. Rajendra Prasad,Dr. APJ Abdul Kalam
+42,"What is the capital of Maharashtra?",Nagpur,Pune,Mumbai,Nashik,Mumbai
+43,"Which festival is celebrated by Muslims after Ramadan?",Eid-ul-Adha,Holi,Eid-ul-Fitr,Muharram,Eid-ul-Fitr
+44,"Which Indian sportsperson is known as the Flying Sikh?",Milkha Singh,P. T. Usha,K. D. Jadhav,Kapil Dev,Milkha Singh
+45,"Which is the national reptile of India?",Cobra,Python,Crocodile,Lizard,Cobra
+46,"What is the capital of Tamil Nadu?",Madurai,Chennai,Coimbatore,Salem,Chennai
+47,"Which vitamin is produced by the skin when exposed to sunlight?",Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin D
+48,"Which animal is known as the King of the Jungle?",Elephant,Tiger,Lion,Leopard,Lion
+49,"What is the national tree of India?",Neem,Peepal,Banyan,Mango,Banyan
+50,"Which country is India’s southern neighbor across the ocean?",Nepal,Bangladesh,Sri Lanka,Myanmar,Sri Lanka
+51,"Which Indian river is known as the 'Sorrow of Bihar' due to frequent flooding?",Kosi,Ghaghara,Gandak,Karnali,Kosi
+52,"Who is the current (2025) Chief Election Commissioner of India?",Sushil Chandra,Anup Chandra Pandey,Sunil Arora,Ashish Kumar,Sunil Arora
+53,"Which country uses the currency called the 'Real'?",Argentina,Brazil,Mexico,Chile,Brazil
+54,"Which element has the highest electrical conductivity at standard temperature?",Silver,Gold,Copper,Aluminium,Silver
+55,"Which Indian state has the highest literacy rate as per the latest census?",Kerala,Goa,Delhi,Himachal Pradesh,Kerala
+56,"What is the capital city of the Canadian province Alberta?",Edmonton,Calgary,Victoria,Winnipeg,Edmonton
+57,"In the human body, which organ produces the hormone insulin?",Liver,Pancreas,Thyroid,Adrenal,Pancreas
+58,"Which planet in our solar system has the fastest orbital period around the Sun?",Mercury,Venus,Earth,Mars,Mercury
+59,"Which author wrote the novel ‘One Hundred Years of Solitude’?",Gabriel Garcia Marquez,Ernest Hemingway,Jorge Luis Borges,Isabel Allende,Gabriel Garcia Marquez
+60,"Which Indian city is known as the ‘Steel City’ of India?",Rourkela,Jamshedpur,Bhilai,Bokaro,Jamshedpur
+61,"Which festival is celebrated on the full moon day of the Hindu month of Ashwin?",Navratri,Dussehra,Kartika Purnima,Karva Chauth,Dussehra
+62,"Which is the largest freshwater lake in India by area?",Vembanad,Chilika,Sambhar,Wular,Wular
+63,"Who was the first woman Governor of the Reserve Bank of India?",Dr Urjit Patel,Shyamala Gopinath,R. H. Khan,Raghuram Rajan,Shyamala Gopinath
+64,"Which treaty signed in 1960 was between India and Nepal regarding trade and transit?",Treaty of Peace and Friendship,Treaty of Commerce and Navigation,Indo-Nepal Trade Accord,Transit Agreement,Indo-Nepal Trade Accord
+65,"Which sportsman holds the record for the most Olympic gold medals for India as of 2025?",Abhinav Bindra,Neeraj Chopra,Milkha Singh,Leander Paes,Neeraj Chopra
+66,"Which country is the world’s largest producer of coffee by volume?",Vietnam,Colombia,Brazil,Indonesia,Brazil
+67,"Which Indian city was formerly known as Madras?",Hyderabad,Chennai,Coimbatore,Madurai,Chennai
+68,"Which vitamin is produced in the human skin when exposed to sunlight?",Vitamin A,Vitamin B12,Vitamin D,Vitamin K,Vitamin D
+69,"Which Indian award is given for excellence in the field of aesthetics and fine arts every year?",Bharat Ratna,Padma Bhushan,Sangeet Natak Akademi Award,Jnanpith Award,Sangeet Natak Akademi Award
+70,"Which ocean current is responsible for the mild climate of Western Europe?",Gulf Stream,California Current,Benguela Current,East Australian Current,Gulf Stream
+71,"Which protocol is used for secure communication over the internet (HTTPS)?",FTP,SMTP,SSL/TLS,HTTP,SSL/TLS
+72,"Which gas is most abundant in the Earth’s atmosphere?",Oxygen,Nitrogen,Carbon Dioxide,Argon,Nitrogen
+73,"Which Indian state launched the 'Mukhya Mantri Antyodaya Yojana' (MAAY) scheme for food security in 2023?",Uttar Pradesh,Bihar,Maharashtra,Karnataka,Uttar Pradesh
+74,"Which is the smallest country in the world by land area?",Monaco,San Marino,Vatican City,Nauru,Vatican City
+75,"Which Nobel Prize winner authored the play ‘Waiting for Godot’?",Samuel Beckett,Arthur Miller,Tennessee Williams,Harold Pinter,Samuel Beckett
+76,"Which mountain range separates Europe and Asia?",Urals,Alps,Himalayas,Andes,Urals
+77,"Which Indian state contains the only desert in India?",Rajasthan,Gujarat,Haryana,Punjab,Rajasthan
+78,"Which gas is released when baking soda reacts with vinegar?",Carbon Monoxide,Carbon Dioxide,Hydrogen,Helium,Carbon Dioxide
+79,"Which city is known as the 'City of Canals' in India?",Alleppey,Varanasi,Ahmedabad,Indore,Alleppey
+80,"Which currency is used in South Africa alongside the Rand for certain transactions?",Euro,Dollar,Pound,Chinese Yuan,Dollar
+81,"Which Indian satellite was launched in 2024 for earth observation and disaster management?",GISAT-2,INSAT-3D,NAVIC-G,Cartosat-3,Cartosat-3
+82,"Which classical music instrument is made of a hollow wooden body and has six strings widely used in Western music?",Violin,Cello,Acoustic Guitar,Mandolin,Acoustic Guitar
+83,"Which device uses the P-type and N-type semiconductor junctions to convert light into electricity?",Capacitor,Diode,Photovoltaic cell,Transformer,Photovoltaic cell
+84,"Which is the longest river in Europe?",Volga,Danube,Ural,Don,Volga
+85,"Which Indian leader's slogan was 'Garibi Hatao'?",Jawaharlal Nehru,Lal Bahadur Shastri,Indira Gandhi,Morarji Desai,Indira Gandhi
+86,"Which metal is liquid at room temperature besides mercury?",Bromine,Lead,Nickel,Tin,Bromine
+87,"Which Buddhist scripture is considered the earliest complete extant text of the Pali-Canon?",Vinaya Pitaka,Majjhima Nikaya,Dhammapada,Abhidhamma Pitaka,Dhammapada
+88,"Which port city is called the ‘Gateway of India’ in Mumbai?",Chhatrapati Shivaji Terminus,Colaba Port,Mumbai Harbour,Jawaharlal Nehru Port,Colaba Port
+89,"Which Indian state is the largest in terms of geographical area?",Madhya Pradesh,Rajasthan,Andhra Pradesh,Lakshadweep,Rajasthan
+90,"Which country is the founder of the International Space Station (ISS) programme along with the USA and Russia?",China,India,Japan,Canada,Canada
+91,"Which Indian organisation launched the Chandrayaan-3 mission?",ISRO,DRDO,HAL,BEL,ISRO
+92,"Which gas law relates volume and pressure of a gas at constant temperature?",Boyle’s Law,Charles’s Law,Avogadro’s Law,Henry’s Law,Boyle’s Law
+93,"Which philosopher wrote ‘The Republic’?",Aristotle,Plato,Immanuel Kant,John Locke,Plato
+94,"Which vitamin deficiency causes scurvy?",Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin C
+95,"Which is the most populous state in India as per 2021 census?",Uttar Pradesh,Maharashtra,Bihar,West Bengal,Uttar Pradesh
+96,"Which country is home to the longest land border in the world?",India,China,Russia,Canada,China
+97,"Which Indian playwright wrote 'Three Women'? (Award-winning book)",Anita Desai,Asha Menon,Indira Ghosh,Amrita Pritam,Amrita Pritam
+98,"Which city hosted the first UN Earth Summit in 1972?",Stockholm,Vienna,Rio de Janeiro,Paris,Stockholm
+99,"Which Indian wildlife sanctuary is known for one-horned rhinoceros?",Kaziranga,Manas,Periyar,Sundarbans,Kaziranga
+100,"Which element has the atomic number 79?",Gold,Silver,Platinum,Lead,Gold
+101,Which Indian physicist won the Nobel Prize in 1930?,C.V. Raman,Homi Bhabha,S.N. Bose,Vikram Sarabhai,C.V. Raman
+102,Which country hosted the first modern Olympic Games?,France,Greece,Italy,USA,Greece
+103,Who was the founder of the Maurya Empire?,Chandragupta Maurya,Bindusara,Ashoka,Bimbisara,Chandragupta Maurya
+104,Which is the deepest ocean in the world?,Atlantic Ocean,Pacific Ocean,Indian Ocean,Arctic Ocean,Pacific Ocean
+105,What is the capital of Switzerland?,Zurich,Basel,Geneva,Bern,Bern
+106,Who discovered the law of gravitation?,Albert Einstein,Galileo Galilei,Isaac Newton,Johannes Kepler,Isaac Newton
+107,Which is the smallest continent by land area?,Europe,Australia,Antarctica,South America,Australia
+108,"The term 'Satyameva Jayate' is taken from which Upanishad?",Mundaka Upanishad,Chandogya Upanishad,Kena Upanishad,Brihadaranyaka Upanishad,Mundaka Upanishad
+109,Which Indian state is known as the ‘Spice Garden of India’?,Kerala,Goa,Assam,Karnataka,Kerala
+110,What is the national animal of Scotland?,Horse,Unicorn,Lion,Eagle,Unicorn
+111,Who was the first Indian woman to go to space?,Kalpana Chawla,Sunita Williams,Tessy Thomas,Indira Gandhi,Kalpana Chawla
+112,Which city is known as the ‘City of Palaces’?,Delhi,Mysuru,Kolkata,Udaipur,Mysuru
+113,Which is the largest freshwater lake in the world?,Lake Baikal,Lake Superior,Lake Victoria,Lake Tanganyika,Lake Superior
+114,Who was the last Governor-General of independent India?,Lord Mountbatten,C. Rajagopalachari,Sardar Patel,Jawaharlal Nehru,C. Rajagopalachari
+115,In which year was the United Nations established?,1919,1939,1945,1950,1945
+116,Which Indian scientist is known as the 'Rocket Man'?,Vikram Sarabhai,A. P. J. Abdul Kalam,Homi Bhabha,K. Sivan,A. P. J. Abdul Kalam
+117,Which Mughal ruler built the Peacock Throne?,Akbar,Jahangir,Shah Jahan,Aurangzeb,Shah Jahan
+118,Which element has the highest melting point?,Iron,Tungsten,Carbon,Platinum,Tungsten
+119,What is the capital of Norway?,Oslo,Bergen,Helsinki,Stockholm,Oslo
+120,Which Indian city is famous for its diamond industry?,Surat,Jaipur,Mumbai,Chennai,Surat
+121,"Who wrote the book 'Wealth of Nations'?",John Locke,Adam Smith,Karl Marx,David Ricardo,Adam Smith
+122,The currency of South Korea is called?,Yen,Yuan,Won,Dong,Won
+123,Which Indian classical dance form originates from Tamil Nadu?,Kathak,Bharatanatyam,Odissi,Kuchipudi,Bharatanatyam
+124,Who was the founder of the Gupta Empire?,Samudragupta,Chandragupta I,Chandragupta II,Srigupta,Srigupta
+125,Which planet has the largest number of moons?,Earth,Saturn,Jupiter,Neptune,Saturn
+126,Who was the first Indian to win an individual Olympic gold medal?,Abhinav Bindra,Leander Paes,Rajyavardhan Rathore,Milkha Singh,Abhinav Bindra
+127,Which battle marked the beginning of British rule in India?,Battle of Buxar,Battle of Panipat,Battle of Plassey,Battle of Talikota,Battle of Plassey
+128,What is the national game of Canada?,Cricket,Lacrosse,Hockey,Baseball,Lacrosse
+129,Who invented the World Wide Web?,Bill Gates,Steve Jobs,Tim Berners-Lee,Charles Babbage,Tim Berners-Lee
+130,What is the chemical symbol for silver?,Au,Ag,Si,Sg,Ag
+131,Which Indian monument was built to commemorate soldiers who died in World War I?,India Gate,Gateway of India,Victoria Memorial,Red Fort,India Gate
+132,Which city is known as the Silicon Valley of India?,Hyderabad,Pune,Bengaluru,Chennai,Bengaluru
+133,Who is known as the father of modern chemistry?,Antoine Lavoisier,Robert Boyle,John Dalton,Marie Curie,Antoine Lavoisier
+134,Which country is the largest producer of coffee?,India,Brazil,Colombia,Ethiopia,Brazil
+135,Who was the first Indian to receive a Nobel Prize?,C. V. Raman,Rabindranath Tagore,Mother Teresa,Amartya Sen,Rabindranath Tagore
+136,Which is the longest river in India?,Godavari,Yamuna,Ganga,Brahmaputra,Ganga
+137,Which Indian city is known as the 'Manchester of India'?,Ahmedabad,Surat,Mumbai,Kanpur,Ahmedabad
+138,What is the capital of New Zealand?,Wellington,Auckland,Christchurch,Hamilton,Wellington
+139,Which freedom fighter is also known as Netaji?,Bhagat Singh,Sardar Patel,Subhas Chandra Bose,Lala Lajpat Rai,Subhas Chandra Bose
+140,"Who wrote the book 'Discovery of India'?",Mahatma Gandhi,Jawaharlal Nehru,Rabindranath Tagore,Sarojini Naidu,Jawaharlal Nehru
+141,Which country is the largest by area?,China,Russia,Canada,USA,Russia
+142,Which Indian personality was known as the Iron Man of India?,Jawaharlal Nehru,Sardar Vallabhbhai Patel,B. R. Ambedkar,Lal Bahadur Shastri,Sardar Vallabhbhai Patel
+143,In which year did World War II end?,1944,1945,1946,1947,1945
+144,Which city hosted the G20 Summit in 2023?,Tokyo,New Delhi,Paris,Jakarta,New Delhi
+145,What is the national bird of the USA?,Crow,Peacock,Bald Eagle,Pigeon,Bald Eagle
+146,Who founded the Indian Space Research Organisation (ISRO)?,Vikram Sarabhai,A. P. J. Abdul Kalam,Homi Bhabha,K. Kasturirangan,Vikram Sarabhai
+147,What is the capital of Egypt?,Cairo,Alexandria,Khartoum,Tripoli,Cairo
+148,Which Indian cricketer is known as the 'Little Master'?,Sourav Ganguly,Sachin Tendulkar,Sunil Gavaskar,Rahul Dravid,Sachin Tendulkar
+149,Which Indian state is the largest producer of wheat?,Punjab,Haryana,Uttar Pradesh,Madhya Pradesh,Uttar Pradesh
+150,Who was the first Indian Governor-General after independence?,C. Rajagopalachari,Lord Mountbatten,Jawaharlal Nehru,Dr. Rajendra Prasad,C. Rajagopalachari

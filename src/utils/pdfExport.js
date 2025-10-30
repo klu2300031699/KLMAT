@@ -22,6 +22,17 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
   let currentSubject = ''
   let yPosition = 40
   
+  // Helper function to clean text - replace special characters not supported by Helvetica font
+  const cleanText = (text) => {
+    if (!text) return text
+    return text
+      .replace(/₹/g, 'Rs.')  // Rupee symbol
+      .replace(/→/g, '->')   // Arrow symbol
+      .replace(/°/g, ' deg') // Degree symbol
+      .replace(/×/g, 'x')    // Multiplication symbol
+      .replace(/÷/g, '/')    // Division symbol
+  }
+  
   // Helper function to add header on each page
   const addPageHeader = (subject, isSubjectStart = false) => {
     const radius = 3
@@ -139,16 +150,44 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
     subjectQuestions.forEach((q, idx) => {
       const isSubjectStart = idx === 0
       
-      // Check if we need a new page - reduced threshold for better page utilization
-      if (!isFirstPage && (yPosition > pageHeight - 50 || isSubjectStart)) {
-        doc.addPage()
-        addPageHeader(subject, isSubjectStart)
-      } else if (isFirstPage) {
+      // Handle first page
+      if (isFirstPage) {
         addPageHeader(subject, true)
         isFirstPage = false
       } else if (isSubjectStart) {
+        // New subject starting - check if we need a new page for subject header
+        // Subject header needs about 25-30 units of space
+        if (yPosition > pageHeight - 60) {
+          // Not enough space for subject header + question, start new page
+          doc.addPage()
+          addPageHeader(subject, true)
+        } else {
+          // Enough space - add subject header inline
+          yPosition += 8  // Add spacing before new subject
+          
+          // Draw subject header
+          const radius = 3
+          const subjectText = subject.toUpperCase()
+          const subjectFontSize = 12
+          doc.setFontSize(subjectFontSize)
+          doc.setFont('helvetica', 'bold')
+          doc.setTextColor(0, 0, 0)
+          
+          const subjectWidth = doc.getTextWidth(subjectText) + 8
+          const subjectBoxHeight = subjectFontSize + 2
+          const subjectBoxX = (pageWidth - subjectWidth) / 2
+          const boxY = yPosition - (subjectBoxHeight / 2)
+          
+          doc.roundedRect(subjectBoxX, boxY, subjectWidth, subjectBoxHeight, radius, radius)
+          const subjectTextY = yPosition + subjectFontSize / 6
+          doc.text(subjectText, pageWidth / 2, subjectTextY, { align: 'center' })
+          
+          yPosition += subjectBoxHeight + 8  // Move down after subject header
+        }
+      } else if (yPosition > pageHeight - 40) {
+        // Regular page break check (not at subject start)
         doc.addPage()
-        addPageHeader(subject, true)
+        addPageHeader(subject, false)
       }
       
       // Question number and text on same line
@@ -159,13 +198,26 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       const questionNum = `${q.originalIndex + 1}.`
       const questionNumWidth = doc.getTextWidth(questionNum + '       ')
       
-      // Write question number at consistent left margin
-      doc.text(questionNum, margin, yPosition)
-      
       // Write question text after number with proper spacing
       const questionTextWidth = maxWidth - questionNumWidth
-      const fullQuestionText = q.Question
+      // Replace special characters for consistent font rendering
+      const fullQuestionText = cleanText(q.Question)
       const questionLines = doc.splitTextToSize(fullQuestionText, questionTextWidth)
+      
+      // Calculate total space needed for this question + options (estimate)
+      const questionHeight = questionLines.length * 4.5 + 1.5 // question lines + spacing
+      const optionsHeight = 15 // Conservative estimate for options (enough for 2-3 lines)
+      const totalNeededSpace = questionHeight + optionsHeight
+      
+      // Check if we need a new page BEFORE starting the question
+      // This ensures question and options stay together
+      if (yPosition + totalNeededSpace > pageHeight - 20) {
+        doc.addPage()
+        addPageHeader(subject, false)
+      }
+      
+      // Write question number at consistent left margin
+      doc.text(questionNum, margin, yPosition)
       
       // Print first line of question on same line as Q number
       doc.text(questionLines[0], margin + questionNumWidth, yPosition)
@@ -173,10 +225,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       
       // Print remaining question lines if any (aligned with first line)
       for (let i = 1; i < questionLines.length; i++) {
-        if (yPosition > pageHeight - 30) {
-          doc.addPage()
-          addPageHeader(subject, false)
-        }
         doc.text(questionLines[i], margin + questionNumWidth, yPosition)
         yPosition += 4.5
       }
@@ -186,10 +234,10 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       
       // Options - Smart layout with priority: 4 in 1 line > 2 per line > 1 per line
       const options = [
-        { label: '(a)', text: q['Option 1'] },
-        { label: '(b)', text: q['Option 2'] },
-        { label: '(c)', text: q['Option 3'] },
-        { label: '(d)', text: q['Option 4'] }
+        { label: '(a)', text: cleanText(q['Option 1']) },
+        { label: '(b)', text: cleanText(q['Option 2']) },
+        { label: '(c)', text: cleanText(q['Option 3']) },
+        { label: '(d)', text: cleanText(q['Option 4']) }
       ]
       
       // Consistent left alignment for all options
@@ -207,10 +255,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       
       if (allOptionsWidth <= availableWidth) {
         // All 4 options fit on one line - BEST CASE
-        if (yPosition > pageHeight - 30) {
-          doc.addPage()
-          addPageHeader(subject, false)
-        }
         doc.text(allOptionsOneLine, optionIndent, yPosition)
         yPosition += 4.5
       } else {
@@ -229,10 +273,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
         
         if (firstLineFits && secondLineFits) {
           // Both lines fit - display 2 options per line
-          if (yPosition > pageHeight - 35) {
-            doc.addPage()
-            addPageHeader(subject, false)
-          }
           
           const leftColumnX = optionIndent
           const rightColumnX = optionIndent + columnWidth + columnGap
@@ -249,11 +289,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
         } else {
           // PRIORITY 3: Display each option on its own line (FALLBACK)
           options.forEach(opt => {
-            if (yPosition > pageHeight - 30) {
-              doc.addPage()
-              addPageHeader(subject, false)
-            }
-            
             // Calculate the width of the label to align continuation lines
             const labelWidth = doc.getTextWidth(`${opt.label} `)
             
@@ -261,11 +296,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
             const textLines = doc.splitTextToSize(opt.text, availableWidth - labelWidth)
             
             textLines.forEach((line, lineIdx) => {
-              if (yPosition > pageHeight - 30) {
-                doc.addPage()
-                addPageHeader(subject, false)
-              }
-              
               if (lineIdx === 0) {
                 // First line: show label + text
                 doc.text(`${opt.label} ${line}`, optionIndent, yPosition)
@@ -282,10 +312,6 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       // Answer (if included)
       if (includeAnswers) {
         yPosition += 2
-        if (yPosition > pageHeight - 30) {
-          doc.addPage()
-          addPageHeader(subject, false)
-        }
         doc.setFont('helvetica', 'bold')
         doc.setTextColor(0, 0, 0)
         doc.text(`Answer: ${q.Answer}`, optionIndent, yPosition)

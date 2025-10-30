@@ -1,91 +1,125 @@
 Q_No,Question,Option 1,Option 2,Option 3,Option 4,Answer
-1,What is 30% of 350?,90,100,105,115,105
-2,The average of 5, 10, 15, 20, and 25 is:,12,14,15,18,15
-3,If 10 men can finish a work in 8 days, how long will 5 men take?,8,12,14,16,16
-4,The simple interest on ₹4000 at 5% p.a. for 4 years is:,₹600,₹700,₹800,₹900,₹800
-5,Ratio of 45 minutes to 1 hour is:,1:2,3:4,2:3,4:5,3:4
-6,(25 × 4) ÷ 2 = ?,40,45,50,55,50
-7,The value of √121 + √49 is:,16,17,18,20,17
-8,If cost price = ₹800 and profit = 20%, selling price is:,₹880,₹960,₹1000,₹1050,₹960
-9,Find the next number: 1, 2, 4, 8, 16, ?,20,24,32,40,32
-10,What is 25% of 120 + 10% of 200?,40,50,55,60,60
-11,The LCM of 6 and 15 is:,20,25,30,36,30
-12,A train covers 90 km in 1.5 hours. Speed = ?,50 km/h,55 km/h,60 km/h,65 km/h,60 km/h
-13,10% of a number is 45. The number is:,350,400,450,500,450
-14,Difference between squares of 13 and 11 is:,36,44,48,52,44
-15,If 4 pens cost ₹40, the cost of 9 pens is:,₹80,₹85,₹90,₹95,₹90
-16,4³ ÷ 4² = ?,2,3,4,5,2
-17,The sum of angles in a pentagon is:,360°,450°,540°,720°,540°
-18,If a = 3, b = 5, then a² + b² = ?,30,32,34,36,34
-19,Compound interest on ₹5000 at 10% for 1 year is:,₹400,₹500,₹550,₹600,₹500
-20,If 9x = 81, then x = ?,7,8,9,10,9
-21,What is 40% of 250?,80,90,100,120,100
-22,The average of 12, 16, 20, 24, and 28 is:,18,20,22,24,22
-23,If 8 men can complete a work in 12 days, how many days will 4 men take?,12,18,24,36,24
-24,The simple interest on ₹6000 at 8% p.a. for 3 years is:,₹1200,₹1440,₹1500,₹1600,₹1440
-25,Ratio of 3 hours to 1 day is:,1:6,1:8,1:12,1:24,1:8
-26,(20 × 5) ÷ 2 = ?,30,40,50,60,40
-27,The value of √169 + √25 is:,14,15,16,17,17
-28,If cost price = ₹500 and profit = 25%, selling price is:,₹550,₹600,₹625,₹650,₹625
-29,Find the next number: 3, 6, 12, 24, ?,36,40,48,50,48
-30,What is 10% of 500 + 15% of 400?,80,90,95,100,100
-31,The HCF of 18 and 24 is:,3,6,9,12,6
-32,A train travels 150 km in 3 hours. Its speed is:,40 km/h,45 km/h,50 km/h,60 km/h,60 km/h
-33,25% of a number is 75. The number is:,250,275,300,325,300
-34,The difference between the square of 10 and 9 is:,17,19,21,25,21
-35,If 6 pencils cost ₹24, the cost of 10 pencils is:,₹36,₹38,₹40,₹42,₹40
-36,2⁵ ÷ 2³ = ?,2,4,6,8,4
-37,The sum of angles in a quadrilateral is:,180°,270°,300°,360°,360°
-38,If a = 4, b = 2, then a² – b² = ?,10,12,14,16,12
-39,The compound interest on ₹2000 at 10% p.a. for 2 years is:,₹200,₹210,₹220,₹230,₹210
-40,If 7x = 56, then x = ?,6,7,8,9,8
-41,"If many employees cite long commutes for resigning, management plans WFH to reduce attrition. Which, if true, most strengthens the plan?","Employees who left cited long commutes.","The company upgraded interiors.","Most employees prefer office culture.","Competitors don’t offer WFH.","A"
-42,"A study finds coffee drinkers score higher. Which most weakens 'coffee improves performance'?","Coffee drinkers sleep fewer hours.","High scorers study more and drink coffee to stay awake.","Coffee increases alertness temporarily.","Some students dislike coffee.","B"
-43,"If a car's headlights are on, it must be nighttime. Which assumption underlies this?","Headlights are never used during the day.","All cars have working headlights.","Daytime headlight use is illegal.","Drivers never forget to switch lights off.","A"
-44,"Is x > 5? 1) 2x > 10 2) x+3 > 8 — Which is sufficient?","Statement (1) alone is sufficient.","Statement (2) alone is sufficient.","Both together are sufficient.","Each alone is sufficient.","D"
-45,"All roses are flowers. Some flowers fade quickly. Which conclusion is valid?","Some roses fade quickly.","All flowers are roses.","Some flowers are not roses.","No rose fades quickly.","C"
-46,"People who exercise regularly have fewer health problems. Harsha never exercises. What inference is best?","Harsha will definitely have health problems.","Harsha is less likely to be as healthy as regular exercisers.","Exercise cures all health problems.","Health problems are only from not exercising.","B"
-47,"Company Z says its battery lasts twice as long as competitors'. Most useful to evaluate claim?","Whether competitors use similar technology.","Whether 'twice as long' means hours of daily use or total lifespan.","Whether customers like Company Z.","Battery color.","B"
-48,"'Every student who completed the bonus assignment scored well.' Which is similar?","Every athlete who trains regularly performs better.","Some students who scored well didn’t complete the bonus.","Only hardworking students complete assignments.","Some assignments are easy.","A"
-49,"Three boxes labelled Apples/Oranges/Mixed — all labels wrong. You may pick one fruit from one box. Which box to pick to relabel correctly?","Apples","Oranges","Mixed","Any box","C"
-50,"City A drinks more sugary soda but has lower obesity than City B. Which explains?","City A citizens exercise more.","City B has better healthcare.","Soda in City A is more expensive.","City A’s soda has less sugar.","A"
-51,"Areas with more streetlights show less crime — conclusion: more lights reduce crime. What weakens this?","Well-lit areas are more heavily patrolled by police.","Criminals prefer day time.","Streetlights are expensive to maintain.","People feel safer at night in lit areas.","A"
-52,"Company wellness program rolled out; sick leaves fell 20%. Which most undermines CEO's claim that program improved health?","Company also implemented a stricter attendance policy.","Employees reported higher job satisfaction.","Program included yoga sessions.","Company offered free health check-ups.","A"
-53,"Study: green tea drinkers have lower heart disease risk. What weakens 'green tea prevents heart disease'?","Green tea drinkers tend to have healthier diets and exercise more.","Green tea contains antioxidants.","Study involved multiple cities.","Green tea is low in calories.","A"
-54,"Parking fees increased to cut congestion; traffic stayed same. Best explanation?","Many drivers shifted to free parking nearby.","Public transport improved.","City population grew.","Fuel prices dropped.","A"
-55,"Retailer claims same-day delivery improved satisfaction. Which fact strengthens this?","Customer surveys show satisfaction rose after service began.","Competitors introduced same-day delivery too.","Customers make smaller orders more often.","Delivery costs rose for company.","A"
-56,"All consultants are analytical. Some analytical thinkers are extroverts. Which logically follows?","Some consultants are extroverts.","All extroverts are consultants.","Some extroverts are analytical thinkers.","No consultants are extroverts.","C"
-57,"No renewable energy source causes pollution. All solar panels are renewable. What must be true?","Some solar panels cause pollution.","Solar panels do not cause pollution.","Only solar panels are renewable.","All pollution is from non-renewables.","B"
-58,"Some leaders are visionaries. All visionaries are risk-takers. Which conclusion is valid?","All risk-takers are leaders.","Some leaders are risk-takers.","No leaders are risk-takers.","All leaders are visionaries.","B"
-59,"All programmers are logical thinkers. No logical thinker is careless. Which follows?","All programmers are careless.","Some programmers are careless.","No programmer is careless.","Some careless people are programmers.","C"
-60,"Some artists are musicians. All musicians are creative. Which can be drawn?","All artists are creative.","Some artists are creative.","No artist is creative.","All creative people are musicians.","B"
-61,"What is 15% of 200?","25","30","35","40","30"
-62,"If x = 4 and y = 3, what is x² + y²?","12","16","25","29","25"
-63,"A bag has 3 red and 2 blue balls. What fraction are red?","1/2","2/5","3/5","3/4","3/5"
-64,"Simplify: (12/3) + (9/3).","6","7","8","9","7"
-65,"A rectangle has length 10 and width 4. What is its area?","20","24","40","80","40"
-66,"Is x > 0? (1) x² = 9 (2) x = 3","(1) alone","(2) alone","Both","Each","(2) alone"
-67,"8 is what percent of 32?","10%","20%","25%","40%","25%"
-68,"If 3x = 15, what is x?","3","4","5","6","5"
-69,"The average of 4, 6, 8 is:","5","6","7","8","6"
-70,"Is y = 5? (1) y² = 25 (2) y positive","(1) alone","(2) alone","Both","Each","Both"
-71,"If 2x + 3 = 9, find x.","2","3","4","6","3"
-72,"Ratio of boys:girls = 3:2. If 30 boys, how many girls?","15","20","25","18","20"
-73,"Simple interest on $500 at 10% for 2 years?","50","75","100","120","100"
-74,"If x:y=2:3 and y:z=4:5, find x:z.","8:15","2:5","3:5","4:15","8:15"
-75,"Area of circle = 49π. Diameter?","7","10","14","28","14"
-76,"Is n even? (1) n=2k+1 (2) n=4m","(1) alone","(2) alone","Both","Neither","(2) alone"
-77,"3 consecutive even integers sum 48. Middle integer?","14","15","16","18","16"
-78,"A car travels 120 km in 3 hrs. Avg speed?","30","40","50","60","40"
-79,"A number increased by 20% becomes 72. Original?","50","55","60","70","60"
-80,"Is x > y? (1) x - y = 3 (2) x + y = 10","(1)","(2)","Both","(1) alone","(1)"
-81,"If x=2y and 3x+2y=28, find y.","2","3","3.5","4","4"
-82,"Simplify: (2x²y)/(4xy²)","x/(2y)","y/(2x)","2y/x","1/(2xy)","x/(2y)"
-83,"Train 180km at 60km/h and returns at 90km/h. Avg speed?","70","72","75","80","72"
-84,"Is x > 5? (1) x² > 25 (2) x positive","(1)","(2)","Both","Neither","Neither"
-85,"(x-2)(x-3)=0, sum of possible x?","2","3","4","5","5"
-86,"Money doubles in 8 yrs. When 4× (simple interest)?","12","16","24","32","24"
-87,"a:b=2:5, b:c=3:4, find a:c.","3:10","6:20","6:10","3:10","3:10"
-88,"Least number leaves remainder 3 when /5,7,9?","313","318","320","324","318"
-89,"Is p divisible by 6? (1) by 2 (2) by 3","Each","Both","(1)","(2)","Both"
-90,"A and B do a job in 10 & 15 days. Together?","5","6","8","9","6"
+1,"What is 30% of 350?",90,100,105,115,105
+2,"The average of 5 10 15 20 and 25 is:",12,14,15,18,15
+3,"If 10 men can finish a work in 8 days how long will 5 men take?",8,12,14,16,16
+4,"The simple interest on ₹4000 at 5% p.a. for 4 years is:",₹600,₹700,₹800,₹900,₹800
+5,"Ratio of 45 minutes to 1 hour is:",1:2,3:4,2:3,4:5,3:4
+6,"(25 × 4) ÷ 2 = ?",40,45,50,55,50
+7,"The value of √121 + √49 is:",16,17,18,20,17
+8,"If cost price = ₹800 and profit = 20% selling price is:",₹880,₹960,₹1000,₹1050,₹960
+9,"Find the next number: 1 2 4 8 16 ?",20,24,32,40,32
+10,"What is 25% of 120 + 10% of 200?",40,50,55,60,60
+11,"The LCM of 6 and 15 is:",20,25,30,36,30
+12,"A train covers 90 km in 1.5 hours. Speed = ?",50 km/h,55 km/h,60 km/h,65 km/h,60 km/h
+13,"10% of a number is 45. The number is:",350,400,450,500,450
+14,"Difference between squares of 13 and 11 is:",36,44,48,52,44
+15,"If 4 pens cost ₹40 the cost of 9 pens is:",₹80,₹85,₹90,₹95,₹90
+16,"4³ ÷ 4² = ?",2,3,4,5,2
+17,"The sum of angles in a pentagon is:",360°,450°,540°,720°,540°
+18,"If a = 3 b = 5 then a² + b² = ?",30,32,34,36,34
+19,"Compound interest on ₹5000 at 10% for 1 year is:",₹400,₹500,₹550,₹600,₹500
+20,"If 9x = 81 then x = ?",7,8,9,10,9
+21,"What is 40% of 250?",80,90,100,120,100
+22,"The average of 12 16 20 24 and 28 is:",18,20,22,24,22
+23,"If 8 men can complete a work in 12 days how many days will 4 men take?",12,18,24,36,24
+24,"The simple interest on ₹6000 at 8% p.a. for 3 years is:",₹1200,₹1440,₹1500,₹1600,₹1440
+25,"Ratio of 3 hours to 1 day is:",1:6,1:8,1:12,1:24,1:8
+26,"(20 × 5) ÷ 2 = ?",30,40,50,60,40
+27,"The value of √169 + √25 is:",14,15,16,17,17
+28,"If cost price = ₹500 and profit = 25% selling price is:",₹550,₹600,₹625,₹650,₹625
+29,"Find the next number: 3 6 12 24 ?",36,40,48,50,48
+30,"What is 10% of 500 + 15% of 400?",80,90,95,100,100
+31,"The HCF of 18 and 24 is:",3,6,9,12,6
+32,"A train travels 150 km in 3 hours. Its speed is:",40 km/h,45 km/h,50 km/h,60 km/h,60 km/h
+33,"25% of a number is 75. The number is:",250,275,300,325,300
+34,"The difference between the square of 10 and 9 is:",17,19,21,25,21
+35,"If 6 pencils cost ₹24 the cost of 10 pencils is:",₹36,₹38,₹40,₹42,₹40
+36,"2⁵ ÷ 2³ = ?",2,4,6,8,4
+37,"The sum of angles in a quadrilateral is:",180°,270°,300°,360°,360°
+38,"If a = 4 b = 2 then a² – b² = ?",10,12,14,16,12
+39,"The compound interest on ₹2000 at 10% p.a. for 2 years is:",₹200,₹210,₹220,₹230,₹210
+40,"If 7x = 56 then x = ?",6,7,8,9,8
+41,"A and B together can complete a work in 12 days. B alone can do it in 18 days. In how many days can A alone finish the same work?",24,30,36,48,36
+42,"The average age of 5 members in a family is 20 years. If the youngest member is 10 years old, what is the average age of the remaining 4 members?",21,22.5,23,25,22.5
+43,"A train 180 meters long passes a pole in 6 seconds. Find the speed of the train in km/h.",90,100,108,120,108
+44,"The ratio of present ages of A and B is 4:5. After 5 years the ratio becomes 5:6. Find their present ages.",20,25,24,30,25
+45,"A sum of ₹6400 amounts to ₹8000 in 2 years under compound interest. Find the rate of interest per annum.",10%,11%,12%,14%,12%
+46,"If 3 workers can complete a wall in 12 days how many days will 4 workers take assuming equal efficiency?",8,9,10,11,9
+47,"The marked price of an article is ₹1200. After a 10% discount and 8% tax find the selling price.",1130.4,1166.4,1180,1200,1166.4
+48,"A person travels 1/3 distance at 20 km/h 1/3 at 30 km/h and the rest at 60 km/h. Find his average speed.",30,33,36,40,33
+49,"If the difference between compound and simple interest on ₹10000 for 2 years is ₹24 find the rate of interest.",4%,5%,6%,8%,6%
+50,"Two pipes can fill a tank in 20 and 30 minutes respectively while a third pipe can empty it in 40 minutes. Find the time taken to fill the tank when all are open.",15,18,20,24,18
+51,"A man invests ₹15000 at 12% p.a. compounded half-yearly. Find the amount after 1.5 years.",18810,19000,19125,19240,19125
+52,"The average of 40 numbers is 58. If two numbers 65 and 75 are removed what is the new average?",56.4,57,57.5,58.2,57.5
+53,"A boat goes 20 km downstream in 2 hours and returns in 4 hours. Find the speed of the stream.",2 km/h,3 km/h,4 km/h,5 km/h,3 km/h
+54,"The ratio of the ages of A and B is 3:4. After 5 years the ratio becomes 4:5. Find their present ages.",15 and 20,18 and 24,21 and 28,24 and 32,21 and 28
+55,"The cost price of 12 articles equals selling price of 10 articles. Find profit percentage.",15%,16%,18%,20%,20%
+56,"A car covers half the distance at 40 km/h and the other half at 60 km/h. Find the average speed.",45,48,50,52,48
+57,"The cost of 5 kg of apples and 3 kg of mangoes is ₹380. If 2 kg of apples cost ₹120 find the cost per kg of mangoes.",₹60,₹65,₹70,₹75,₹65
+58,"The population of a city increases by 10% in the first year and 20% in the second year. What is the total percentage increase?",30%,32%,33%,34%,32%
+59,"A man purchased two fans for ₹2400. He sold one at 20% profit and the other at 10% loss gaining ₹90 overall. Find the cost price of each fan.",₹1000,₹1200,₹1100,₹1300,₹1100
+60,"The average weight of 8 persons increases by 1.5 kg when a new person replaces one of them weighing 65 kg. Find the weight of the new person.",74,75,76,77,77
+61,"What is 15% of 200?",25,30,35,40,30
+62,"If x = 4 and y = 3 what is x² + y²?",12,16,25,29,25
+63,"A bag has 3 red and 2 blue balls. What fraction are red?",1/2,2/5,3/5,3/4,3/5
+64,"Simplify: (12/3) + (9/3).",6,7,8,9,7
+65,"A rectangle has length 10 and width 4. What is its area?",20,24,40,80,40
+66,"8 is what percent of 32?",10%,20%,25%,40%,25%
+67,"If 3x = 15 what is x?",3,4,5,6,5
+68,"The average of 4 6 8 is:",5,6,7,8,6
+69,"If 2x + 3 = 9 find x.",2,3,4,6,3
+70,"Ratio of boys:girls = 3:2. If 30 boys how many girls?",15,20,25,18,20
+71,"Simple interest on $500 at 10% for 2 years?",50,75,100,120,100
+72,"If x:y=2:3 and y:z=4:5 find x:z.",8:15,2:5,3:5,4:15,8:15
+73,"Area of circle = 49π. Diameter?",7,10,14,28,14
+74,"3 consecutive even integers sum 48. Middle integer?",14,15,16,18,16
+75,"A car travels 120 km in 3 hrs. Avg speed?",30,40,50,60,40
+76,"A number increased by 20% becomes 72. Original?",50,55,60,70,60
+77,"If x=2y and 3x+2y=28, find y.",2,3,3.5,4,4
+78,"Simplify: (2x²y)/(4xy²)",x/(2y),y/(2x),2y/x,1/(2xy),x/(2y)
+79,"Train 180km at 60km/h and returns at 90km/h. Avg speed?",70,72,75,80,72
+80,"(x-2)(x-3)=0 sum of possible x?",2,3,4,5,5
+81,"Money doubles in 8 yrs. When 4× (simple interest)?",12,16,24,32,24
+82,"a:b=2:5 b:c=3:4 find a:c.",3:10,6:20,6:10,3:10,3:10
+83,"Least number leaves remainder 3 when /5 7 9?",313,318,320,324,318
+84,"Is p divisible by 6? (1) by 2 (2) by 3",Each,Both,(1),(2),Both
+85,"A and B do a job in 10 & 15 days. Together?",5,6,8,9,6
+86,"A person can row 10 km downstream in 2 hours and return in 4 hours. Find his speed in still water.",4 km/h,5 km/h,6 km/h,7 km/h,5 km/h
+87,"A box contains 5 red 6 blue and 4 green balls. One ball is drawn at random. What is the probability that it is not green?",9/15,10/15,11/15,12/15,11/15
+88,"The difference between simple and compound interest on ₹2500 for 2 years is ₹25. Find the rate of interest per annum.",8%,9%,10%,12%,10%
+89,"A cistern can be filled by a tap in 8 hours and emptied by a leak in 12 hours. If both are open how long will it take to fill the cistern?",18,20,24,30,24
+90,"If selling price is 120% of cost price find the profit percentage.",18%,20%,25%,30%,20%
+91,"A number consists of two digits. The digit at tens place is twice the digit at ones place. The number becomes 27 more when its digits are interchanged. Find the number.",36,48,63,84,36
+92,"If the radius of a sphere is increased by 50% then its volume increases by:",50%,100%,237.5%,150%,237.5%
+93,"A and B together can finish a work in 8 days. A alone can finish it in 12 days. How long will B take alone?",18,20,24,30,24
+94,"A sum of money becomes ₹9800 in 2 years and ₹10780 in 3 years at compound interest. Find the rate of interest per annum.",8%,9%,10%,12%,10%
+95,"A mixture contains milk and water in the ratio 5:1. If 12 liters of water are added the ratio becomes 5:3. Find the quantity of milk in the mixture.",25,30,35,40,30
+96,"A shopkeeper marks an article 40% above the cost price and allows a discount of 10%. Find his profit percentage.",26,27,28,29,26
+97,"If (x - 1/x) = 5 find (x² + 1/x²).",22,23,24,25,27
+98,"A sum becomes Rs. 8000 in 2 years and Rs. 9200 in 3 years at simple interest. Find the rate of interest.",10,12,15,20,15
+99,"A cistern can be filled by a tap in 8 hours but is emptied by a leak in 12 hours. If both are open how long will it take to fill the cistern?",16,18,24,48,24
+100,"The cost of 3 pens and 4 pencils is Rs. 38. If a pen costs Rs. 2 more than a pencil find the cost of a pen.",6,7,8,9,8
+101,"The ratio of the present ages of A and B is 4:5. After 6 years the ratio becomes 5:6. Find B's present age.",20,22,24,26,24
+102,"The sum of three consecutive multiples of 7 is 105. Find the middle multiple.",33,34,35,36,35
+103,"A train crosses a pole in 8 seconds and a platform 200 m long in 20 seconds. Find the length of the train.",100,120,160,200,160
+104,"If the perimeter of a semicircle is 72 cm find its radius (π = 3.14).",18,20,22,24,18
+105,"The average of 12 numbers is 25. If one number is removed the average becomes 24. Find the number removed.",35,36,37,38,37
+106,"The area of a rhombus is 108 cm² and one of its diagonals is 18 cm. Find the other diagonal.",10,12,14,16,12
+107,"A number exceeds its 2/5 by 42. Find the number.",50,60,70,80,70
+108,"A man can row 30 km downstream in 3 hours and upstream in 5 hours. Find the speed of the stream.",1,2,3,4,2
+109,"If x : y = 3 : 4, find (3x + 4y) : (3x - 4y).",7:1,7:5,25:7,25:1,25:7
+110,"A dealer sold two cycles at Rs. 1200 each gaining 20% on one and losing 20% on the other. Find his overall profit or loss percentage.",No gain no loss,4% loss,4% gain,2% loss,4% loss
+111,"If the population of a town increases by 10% in the first year and decreases by 10% in the next year find the net percentage change.",1% increase,1% decrease,No change,2% increase,1% decrease
+112,"The sum of the first 12 multiples of 8 is:",624,672,720,768,624
+113,"A and B together can finish a job in 6 days. A alone can finish it in 9 days. In how many days can B alone finish it?",12,14,15,18,18
+114,"If the sum of digits of a two-digit number is 9 and the number formed by interchanging its digits is 27 more than the original number find the number.",36,45,54,63,36
+115,"If 5 men can do a work in 12 days how many men are needed to complete the same work in 8 days?",6,7,8,9,8
+116,"If the ratio of curved surface area to total surface area of a right circular cylinder is 1:2 find the ratio of height to radius.",1:1,1:2,2:1,1:3,1:1
+117,"The difference between the compound and simple interest on Rs. 10000 at 10% p.a. for 3 years is:",30,31,32,33,31
+118,"The speed of a train is 72 km/h. How many seconds will it take to cross a 500 m bridge?",20,22,24,25,25
+119,"A bag contains 6 red 5 green and 4 blue balls. If one ball is drawn at random what is the probability that it is not green?",4/5,9/15,10/15,11/15,10/15
+120,"A man covers a distance of 45 km in 9 hours. If he covers half the distance at 6 km/h find his speed for the remaining distance.",4,5,6,8,4
+121,"A rectangular park is 60 m long and 40 m wide. A path 5 m wide is built outside it. Find the area of the path.",950,1000,1050,1100,1000
+122,"If 2³ × 3⁴ × 5² = 2ᵃ × 3ᵇ × 5ᶜ find a + b + c.",8,9,10,11,9
+123,"The average age of 5 students is 21 years. If a new student joins the group the average increases by 1 year. Find the age of the new student.",26,27,28,29,27
+124,"A number when divided by 6 leaves a remainder 3. What will be the remainder when the square of that number is divided by 6?",0,1,2,3,3

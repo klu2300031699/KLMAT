@@ -1,91 +1,118 @@
 Q_No,question,option 1,option 2,option 3,option 4,answer
-1,"Find the odd one out:","Mango","Banana","Apple","Carrot","Carrot"
-2,"If CAT = 24, DOG = 26, then BAT = ?","21","20","23","25","23"
-3,"Ramesh is taller than Suresh but shorter than Mahesh. Who is the tallest?","Ramesh","Suresh","Mahesh","None of the above","Mahesh"
-4,"Series: 2, 6, 12, 20, ?","25","28","30","32","30"
-5,"Choose the missing number: 5, 10, 20, 40, ?","50","70","80","100","80"
-6,"A is B’s brother. B is C’s sister. How is A related to C?","Sister","Cousin","Father","Brother","Brother"
-7,"Which word does not belong?","Table","Chair","Bench","Bottle","Bottle"
-8,"If 9 + 3 = 12, 8 + 2 = 10, then 7 + 3 = ?","11","10","9","13","10"
-9,"Statements: All flowers are plants. Some plants are trees. Conclusion: Some flowers are trees.","True","False","Cannot say","Maybe","False"
-10,"Find the next term: AB, CD, EF, ?","IJ","GH","KL","MN","GH"
-11,"If 1 = A, 2 = B, then 8 = ?","H","F","G","I","H"
-12,"Which number is different: 2, 4, 8, 16, 24","2","4","16","24","24"
-13,"If North = 0°, East = 90°, South = 180°, West = ?","180°","270°","360°","90°","270°"
-14,"If 3 cats catch 3 rats in 3 minutes, how many rats can 6 cats catch in 6 minutes?","6","9","12","18","12"
-15,"Find the missing number: 4, 9, 16, 25, ?","30","36","35","40","36"
-16,"Arrange in order of size: House, Door, City, Room","House, Room, Door, City","Door, Room, House, City","City, House, Door, Room","Room, Door, House, City","Room, Door, House, City"
-17,"If 'APPLE' is coded as 'BQQMF', then 'BALL' is coded as:","CBMM","CANN","BCLL","CCLM","CBMM"
-18,"Which one is not like others: January, March, July, December","January","March","June","December","June"
-19,"If some pencils are pens and all pens are erasers, some pencils are erasers — True or False?","True","False","Cannot say","Both","True"
-20,"Mirror image of EAST is:","TESA","TSAE","EAST","SAET","TSAE"
-21,"If 9 + 3 = 36 and 8 + 2 = 32, then 10 + 4 = ?","40","42","44","48","56"
-22,"Find the odd one out:","Circle","Triangle","Square","Cylinder","Cylinder"
-23,"If in a code, CAT = DBU, then DOG = ?","EPH","EOG","EHH","EOG","EPH"
-24,"Which number will come next: 2, 6, 12, 20, ?","28","30","32","36","30"
-25,"Find the missing term: 1, 4, 9, 16, ?, 36","20","25","30","40","25"
-26,"Pointing to a man, Rita said, 'He is my father's only son.' How is the man related to Rita?","Brother","Uncle","Father","Cousin","Father"
-27,"If FLOWER is coded as GMQXFS, then GARDEN is coded as:","HBSDFO","HBSFEO","HBSDFN","HBSDFM","HBSDFO"
-28,"Find the odd one out:","Iron","Gold","Silver","Wood","Wood"
-29,"If 15% of a number is 45, then what is the number?","200","250","300","350","300"
-30,"Which is different from others?","Pen","Pencil","Eraser","Paper","Paper"
-31,"Choose the correct relation: Finger : Hand :: Leaf : ?","Branch","Tree","Root","Stem","Tree"
-32,"Find the next number: 5, 10, 20, 40, ?","60","70","80","100","80"
-33,"If BLUE = 40, RED = 27, then GREEN = ?","42","44","45","49","45"
-34,"Rearrange the letters to form a meaningful word: 'RAEHT'","HEART","EARTH","HATER","TEARH","EARTH"
-35,"If A = 2, B = 4, C = 6, then J = ?","18","20","22","24","20"
-36,"Which of the following is not an animal?","Lion","Tiger","Table","Elephant","Table"
-37,"If 'rain' is 'water' and 'water' is 'sky', then where does rain fall?","Sky","Ground","River","Cloud","Sky"
-38,"Which one does not belong: Apple, Orange, Grape, Carrot","Apple","Orange","Grape","Carrot","Carrot"
-39,"Find the missing number: 7, 14, 21, 28, ?","32","33","35","36","35"
-40,"A train 100 m long crosses a man in 10 seconds. Its speed is:","36 km/h","48 km/h","60 km/h","72 km/h","36 km/h"
-41,"Find the odd one out:","Apple","Mango","Banana","Tomato","Tomato"
-42,"If CAT = 24, DOG = 26, then FOX = ?","30","36","39","42","39"
-43,"Ramesh is younger than Suresh and older than Mahesh. Who is the youngest?","Ramesh","Suresh","Mahesh","Cannot say","Mahesh"
-44,"Series: 2, 5, 10, 17, 26, ?","35","37","38","40","37"
-45,"Missing number: 6, 12, 24, 48, ?","72","84","96","108","96"
-46,"A is B’s father, B is C’s sister. How is A related to C?","Father","Brother","Uncle","Cousin","Father"
-47,"Which word does not belong?","Pen","Pencil","Eraser","Plate","Plate"
-48,"If 5 + 4 = 45, 6 + 3 = 54, then 7 + 2 = ?","56","58","63","72","63"
-49,"All books are papers. Some papers are files. Some files are books – True or False?","True","False","Cannot say","Maybe","Cannot say"
-50,"Find the next pair: AB, DE, GH, ?","JK","KL","MN","OP","KL"
-51,"If 1 = A, 5 = E, 10 = J, then 12 = ?","K","L","M","N","L"
-52,"Which number is different: 2, 4, 8, 14, 16","2","4","14","16","14"
-53,"If East = 90°, South = 180°, North-West = ?","270°","315°","360°","45°","315°"
-54,"If 4 cats catch 4 rats in 4 minutes, 8 cats catch how many in 8 minutes?","8","12","16","20","16"
-55,"Find the missing number: 3, 9, 27, 81, ?","121","162","243","324","243"
-56,"Arrange in order of size: Pencil, Notebook, Bag, Table","Pencil, Bag, Table, Notebook","Pencil, Notebook, Bag, Table","Bag, Table, Pencil, Notebook","Notebook, Pencil, Bag, Table","Pencil, Notebook, Bag, Table"
-57,"If 'READ' → 'SFB E', then 'BOOK' → ?","CPPK","CPLL","CPNL","CPOK","CPPK"
-58,"Which one is not like others: March, June, September, December","March","June","September","December","June"
-59,"If all squares are rectangles and all rectangles are shapes, all squares are shapes — True or False?","True","False","Cannot say","Both","True"
-60,"Mirror image of NORTH is:","HTRON","TRHON","HNORT","NRTOH","HTRON"
-61,"Many employees at Company X have started leaving because of low morale. The management plans to introduce a flexible work-from-home policy to reduce attrition. Which, if true, most strengthens the management’s plan?","Employees who left previously cited long commutes as a major reason.","The company recently upgraded office interiors.","Most employees prefer traditional office culture.","Competitors do not offer work-from-home options.","The company increased salaries last year.","A"
-62,"A study shows students who drink more coffee tend to score higher on tests. Therefore, drinking coffee increases academic performance. Which statement most weakens the argument?","Students who drink coffee sleep fewer hours.","Students who score high also tend to study more, and they drink coffee to stay awake.","Coffee increases alertness temporarily.","Coffee contains caffeine, a stimulant.","Some students don’t like coffee.","B"
-63,"If a car’s headlights are on, it must be nighttime. Which assumption underlies this conclusion?","Headlights are never used during the day.","All cars have functioning headlights.","It is illegal to use headlights in daytime.","Drivers never forget to switch lights off.","There are no tunnels or dark areas during day.","A"
-64,"Is x > 5? 1. 2x > 10  2. x + 3 > 8","Statement (1) alone is sufficient.","Statement (2) alone is sufficient.","Both statements together are sufficient.","Each alone is sufficient.","Neither is sufficient.","D"
-65,"All roses are flowers. Some flowers fade quickly. Which conclusion is logically valid?","Some roses fade quickly.","All flowers are roses.","Some flowers are not roses.","No rose fades quickly.","All fading things are flowers.","C"
-66,"People who exercise regularly have fewer health problems. Harsha never exercises. What can be inferred?","Harsha will definitely have health problems.","Harsha is less likely to be healthy than regular exercisers.","Exercise causes all health problems to disappear.","Health problems are caused only by lack of exercise.","Harsha will never exercise.","B"
-67,"Company Z claims its new battery lasts twice as long as competitors’. To evaluate the claim, what would be most useful to know?","Whether competitors use similar technology.","Whether “twice as long” refers to hours of use or total lifespan.","Whether customers like Company Z.","How expensive the new battery is.","The color of the battery.","B"
-68,"“Every student who completed the bonus assignment scored well on the exam.” Which statement shows similar reasoning?","Every athlete who trains regularly performs better in competition.","Some students who scored well didn’t complete the bonus.","Only hardworking students complete assignments.","Some assignments are easy.","Exams test memory only.","A"
-69,"Three boxes are labeled “Apples,” “Oranges,” and “Mixed.” Each label is wrong. You may pick one fruit from one box. Which box should you pick from to correctly relabel all boxes?","Apples","Oranges","Mixed","Any box","Cannot be determined","C"
-70,"People in City A drink more sugary soda but have lower obesity rates than City B. Which explains this?","City A citizens exercise more.","City B has better healthcare.","Soda in City A is more expensive.","City A’s soda contains less sugar.","City B citizens eat more fast food.","E"
-71,"Researchers observed that areas with more streetlights tend to have fewer crimes at night. They concluded that installing more streetlights reduces crime. Which of the following, if true, most weakens the conclusion?","Well-lit areas are also more heavily patrolled by police.","Criminals prefer to commit crimes during the day.","Streetlights are expensive to maintain.","People feel safer walking at night in well-lit areas.","Streetlights consume a lot of electricity.","A"
-72,"A company introduced an employee wellness program, and after six months, reported a 20% drop in sick leaves. The CEO concluded that the program improved employee health. Which of the following, if true, most seriously undermines the CEO’s conclusion?","The company also implemented a stricter attendance policy.","Employees reported higher job satisfaction.","The wellness program included yoga sessions.","The company offered free health check-ups.","Some employees joined gyms outside work.","A"
-73,"A study found that people who drink green tea regularly have a lower risk of heart disease. The researchers concluded that green tea prevents heart disease. Which of the following, if true, most weakens the conclusion?","Green tea drinkers tend to have healthier diets and exercise more.","Green tea contains antioxidants that are good for the heart.","The study involved participants from multiple cities.","Green tea is low in calories.","Green tea drinkers sleep fewer hours.","A"
-74,"A city government increased parking fees to reduce traffic congestion. After a year, traffic levels remained the same. Which of the following, if true, best explains why congestion did not decrease?","Many drivers shifted to free parking areas nearby.","Public transport services improved during the year.","The city’s population grew.","Fuel prices decreased.","People prefer private vehicles for convenience.","A"
-75,"An online retailer claims its same-day delivery service has improved customer satisfaction. Which of the following, if true, most strengthens this claim?","Customer surveys show a significant increase in satisfaction after the service began.","Competitors also introduced same-day delivery.","Customers now make smaller orders more frequently.","Delivery costs increased for the company.","The number of returns increased slightly.","A"
-76,"All consultants are analytical thinkers. Some analytical thinkers are extroverts. Which of the following conclusions can be logically drawn?","Some consultants are extroverts.","All extroverts are consultants.","Some extroverts are analytical thinkers.","All analytical thinkers are consultants.","No consultants are extroverts.","C"
-77,"No renewable energy source causes pollution. All solar panels are renewable energy sources. Which of the following must be true?","Some solar panels cause pollution.","Solar panels do not cause pollution.","Only solar panels are renewable sources.","All pollution comes from non-renewable sources.","Some non-renewable sources cause no pollution.","B"
-78,"Some leaders are visionaries. All visionaries are risk-takers. Which of the following conclusions is valid?","All risk-takers are leaders.","Some leaders are risk-takers.","Some risk-takers are not leaders.","No leaders are risk-takers.","All leaders are visionaries.","B"
-79,"All programmers are logical thinkers. No logical thinker is careless. Which conclusion follows logically?","All programmers are careless.","Some programmers are careless.","No programmer is careless.","Some careless people are programmers.","Some logical thinkers are careless.","C"
-80,"Some artists are musicians. All musicians are creative. Which of the following conclusions can be drawn?","All artists are creative.","Some artists are creative.","No artist is creative.","Some creative people are not artists.","All creative people are musicians.","B"
-81,"A company found that after launching its new eco-friendly packaging, customer satisfaction ratings increased by 20%. The marketing team concludes that the eco-friendly packaging caused the rise in customer satisfaction. Which of the following would be most useful to know in evaluating the conclusion?","Whether the company also improved product quality during the same period.","Whether competitors plan to adopt similar packaging.","Whether the eco-friendly packaging costs more to produce.","Whether customers are aware of the packaging change.","Whether the company’s overall sales increased.","A"
-82,"A university reports that students who attend morning classes score higher on exams than those who attend evening classes. Administrators conclude that studying in the morning improves academic performance. Which of the following would best help evaluate the administrators’ conclusion?","Whether morning students tend to have higher prior academic records.","Whether evening students take more difficult subjects.","Whether professors who teach morning classes are more experienced.","Whether students who switch from evening to morning classes improve their scores.","All of the above.","E"
-83,"Some critics argue that increasing taxes on luxury goods hurts the economy, since it reduces spending by the wealthy. However, recent data show that such taxes have little impact on overall economic growth. In the argument above, the two boldfaced portions play which of the following roles?","The first presents a claim that the argument seeks to refute; the second provides evidence that undermines that claim.","The first provides background information; the second offers an example.","The first presents the author’s conclusion; the second presents opposing evidence.","Both are conclusions drawn from the same evidence.","The first provides evidence; the second restates it differently.","A"
-84,"Some analysts believe that investing in small local businesses leads to long-term economic stability. The author, however, argues that such investments are too risky and fail to generate consistent returns. In the argument above, the two boldfaced statements play which of the following roles?","The first states a position that the author disputes; the second states the author’s conclusion.","The first and second both support the same point.","The first provides evidence; the second offers a consequence.","The first presents a counterexample; the second describes supporting data.","Both state similar claims made by the same group.","A"
-85,"Studies show that people who drink more green tea tend to live longer. Therefore, drinking green tea causes people to live longer. Which of the following identifies a flaw in the reasoning above?","It confuses correlation with causation.","It assumes that all green tea drinkers have similar diets.","It overlooks the possibility that healthier people choose to drink green tea.","It ignores the effects of other beverages.","Both A and C.","E"
-86,"Many people who use standing desks report fewer back problems. Therefore, replacing all office desks with standing desks will eliminate employee back pain. The argument above is flawed because it:","Assumes that standing is always healthier than sitting.","Generalizes from limited evidence.","Ignores other causes of back pain.","Assumes correlation implies causation.","All of the above.","E"
-87,"Some researchers claim that increasing screen time among teenagers leads to lower attention spans. Other studies, however, show no consistent link between screen use and concentration levels. In the argument above, the two boldfaced portions play which of the following roles?","The first presents a hypothesis; the second challenges it with contradictory evidence.","The first provides background; the second supports it.","The first and second both describe similar findings.","The first presents data; the second interprets it.","The first states a conclusion; the second restates it differently.","A"
-88,"Environmentalists argue that expanding solar farms will drastically cut carbon emissions. Some economists respond that the production and disposal of solar panels also create pollution, offsetting the environmental benefits. In the argument above, the two boldfaced portions play which of the following roles?","The first presents a prediction; the second questions its validity.","The first provides evidence; the second supports it.","The first and second both describe government policy.","The first states an assumption; the second confirms it.","Both are conclusions drawn from the same evidence.","A"
-89,"It is often argued that online learning improves access to education. However, critics point out that it can widen inequality, as students without internet access fall further behind. In the argument above, the two boldfaced portions play which of the following roles?","The first presents a claim that the second qualifies.","The first provides a fact; the second provides an example.","The first presents an opinion; the second restates it.","The first is a conclusion; the second is an unrelated statement.","Both are claims supported by independent evidence.","A"
-90,"Some scientists believe that climate change is primarily driven by human activities. Others maintain that natural variations in solar radiation are the main cause. In the argument above, the two boldfaced portions play which of the following roles?","The first states one explanation; the second presents an alternative explanation.","The first provides evidence; the second builds on it.","The first presents a counterexample; the second restates it.","The first is background information; the second supports it.","Both are conclusions that support the same viewpoint.","A"
+1,"Find the odd one out:",Mango,Banana,Apple,Carrot,Carrot
+2,"If CAT = 24, DOG = 26, then BAT = ?",21,20,23,25,23
+3,"Ramesh is taller than Suresh but shorter than Mahesh. Who is the tallest?",Ramesh,Suresh,Mahesh,None of the above,Mahesh
+4,"Series: 2 6 12 20 ?",25,28,30,32,30
+5,"Choose the missing number: 5 10 20 40 ?",50,70,80,100,80
+6,"A is B’s brother. B is C’s sister. How is A related to C?",Sister,Cousin,Father,Brother,Brother
+7,"Which word does not belong?",Table,Chair,Bench,Bottle,Bottle
+8,"If 9 + 3 = 12, 8 + 2 = 10, then 7 + 3 = ?",11,10,9,13,10
+9,"Statements: All flowers are plants. Some plants are trees. Conclusion: Some flowers are trees.",True,False,Cannot say,Maybe,False
+10,"Find the next term: AB CD EF ?",IJ,GH,KL,MN,GH
+11,"If 1 = A 2 = B then 8 = ?",H,F,G,I,H
+12,"Which number is different: 2 4 8 16 24",2,4,16,24,24
+13,"If North = 0° East = 90° South = 180° West = ?",180°,270°,360°,90°,270°
+14,"If 3 cats catch 3 rats in 3 minutes how many rats can 6 cats catch in 6 minutes?",6,9,12,18,12
+15,"Find the missing number: 4 9 16 25 ?",30,36,35,40,36
+16,"Arrange in order of size: House Door City Room","House Room Door City","Door Room House City","City House Door Room","Room Door House City","Room Door House City"
+17,"If 'APPLE' is coded as 'BQQMF' then 'BALL' is coded as:",CBMM,CANN,BCLL,CCLM,CBMM
+18,"Which one is not like others: January March July December",January,March,June,December,June
+11,"If 1 = A, 2 = B, then 8 = ?",H,F,G,I,H
+12,"Which number is different: 2, 4, 8, 16, 24",2,4,16,24,24
+13,"If North = 0°, East = 90°, South = 180°, West = ?",180°,270°,360°,90°,270°
+14,"If 3 cats catch 3 rats in 3 minutes, how many rats can 6 cats catch in 6 minutes?",6,9,12,18,12
+15,"Find the missing number: 4, 9, 16, 25, ?",30,36,35,40,36
+16,"Arrange in order of size: House, Door, City, Room",House, Room, Door, City,Door
+17,"If 'APPLE' is coded as 'BQQMF', then 'BALL' is coded as:",CBMM,CANN,BCLL,CCLM,CBMM
+18,"Which one is not like others: January, March, July, December",January,March,June,December,June
+19,"If some pencils are pens and all pens are erasers some pencils are erasers — True or False?",True,False,Cannot say,Both,True
+20,"Mirror image of EAST is:",TESA,TSAE,EAST,SAET,TSAE
+21,"If 9 + 3 = 36 and 8 + 2 = 32 then 10 + 4 = ?",40,42,44,48,56
+22,"Find the odd one out:",Circle,Triangle,Square,Cylinder,Cylinder
+23,"If in a code CAT = DBU then DOG = ?",EPH,EOG,EHH,EOG,EPH
+24,"Which number will come next: 2 6 12 20 ?",28,30,32,36,30
+25,"Find the missing term: 1 4 9 16 ? 36",20,25,30,40,25
+26,"Pointing to a man Rita said 'He is my father's only son.' How is the man related to Rita?",Brother,Uncle,Father,Cousin,Father
+27,"If FLOWER is coded as GMQXFS then GARDEN is coded as:",HBSDFO,HBSFEO,HBSDFN,HBSDFM,HBSDFO
+28,"Find the odd one out:",Iron,Gold,Silver,Wood,Wood
+29,"If 15% of a number is 45 then what is the number?",200,250,300,350,300
+30,"Which is different from others?",Pen,Pencil,Eraser,Paper,Paper
+31,"Choose the correct relation: Finger : Hand :: Leaf : ?",Branch,Tree,Root,Stem,Tree
+32,"Find the next number: 5 10 20 40 ?",60,70,80,100,80
+33,"If BLUE = 40 RED = 27 then GREEN = ?",42,44,45,49,45
+34,"Rearrange the letters to form a meaningful word: 'RAEHT'",HEART,EARTH,HATER,TEARH,EARTH
+35,"If A = 2 B = 4 C = 6 then J = ?",18,20,22,24,20
+36,"Which of the following is not an animal?",Lion,Tiger,Table,Elephant,Table
+37,"If 'rain' is 'water' and 'water' is 'sky' then where does rain fall?",Sky,Ground,River,Cloud,Sky
+38,"Which one does not belong: Apple Orange Grape Carrot",Apple,Orange,Grape,Carrot,Carrot
+39,"Find the missing number: 7 14 21 28 ?",32,33,35,36,35
+40,"A train 100 m long crosses a man in 10 seconds. Its speed is:",36 km/h,48 km/h,60 km/h,72 km/h,36 km/h
+41,"Find the odd one out:",Apple,Mango,Banana,Tomato,Tomato
+42,"If CAT = 24 DOG = 26 then FOX = ?",30,36,39,42,39
+43,"Ramesh is younger than Suresh and older than Mahesh. Who is the youngest?",Ramesh,Suresh,Mahesh,Cannot say,Mahesh
+44,"Series: 2 5 10 17 26 ?",35,37,38,40,37
+45,"Missing number: 6 12 24 48 ?",72,84,96,108,96
+46,"A is B's father B is C's sister. How is A related to C?",Father,Brother,Uncle,Cousin,Father
+47,"Which word does not belong?",Pen,Pencil,Eraser,Plate,Plate
+48,"If 5 + 4 = 45 6 + 3 = 54 then 7 + 2 = ?",56,58,63,72,63
+49,"All books are papers. Some papers are files. Some files are books – True or False?",True,False,Cannot say,Maybe,Cannot say
+50,"Find the next pair: AB DE GH ?",JK,KL,MN,OP,KL
+51,"If 1 = A 5 = E 10 = J then 12 = ?",K,L,M,N,L
+52,"Which number is different: 2 4 8 14 16",2,4,14,16,14
+53,"If East = 90° South = 180° North-West = ?",270°,315°,360°,45°,315°
+54,"If 4 cats catch 4 rats in 4 minutes 8 cats catch how many in 8 minutes?",8,12,16,20,16
+55,"Find the missing number: 3 9 27 81 ?",121,162,243,324,243
+56,"Arrange in order of size: Pencil Notebook Bag Table","Pencil Bag Table Notebook","Pencil Notebook Bag Table","Bag Table Pencil Notebook","Notebook Pencil Bag Table","Pencil Notebook Bag Table"
+57,"If 'READ' → 'SFB E' then 'BOOK' → ?",CPPK,CPLL,CPNL,CPOK,CPPK
+58,"Which one is not like others: March June September December",March,June,September,December,June
+59,"If all squares are rectangles and all rectangles are shapes all squares are shapes — True or False?",True,False,Cannot say,Both,True
+60,"Mirror image of NORTH is:",HTRON,TRHON,HNORT,NRTOH,HTRON
+61,"If A × B means A is the brother of B A – B means A is the sister of B and A + B means A is the father of B then what does P + Q – R mean?",P is the father of R,P is the brother of R,P is the uncle of R,P is the sister of R,P is the father of R
+62,"In a certain code MEAT is written as NZBU and ROAD is written as SPBE. How is NEWS written in that code?",OEXT,OXFT,OXET,PXET,OXFT
+63,"Find the missing number: 7 26 63 124 215 ?",342,343,344,345,344
+64,"A and B can do a work in 6 days. B and C can do the same work in 8 days. A B and C together can do it in 4 days. In how many days can A and C do it together?",5,6,7,8,6
+65,"If 1 means + 2 means – 3 means × and 4 means ÷ then what is the value of 8 3 2 1 6 4 2?",10,12,8,14,10
+66,"In a family of six members A B C D E and F there are two married couples. A is the brother of D. F is the father of C. E is the mother of D. How is B related to F?",Wife,Daughter,Son,Mother,Wife
+67,"If 'SCHOOL' is coded as 1223151212 how is 'COLLEGE' coded?",121512757,315121575,31512157,31512657,31512157
+68,"Find the odd one out: 49 64 81 100 121",49,64,81,121,121
+69,"A walks 5 km north then 3 km east then 2 km south. How far is he from the starting point?",5 km,4 km,6 km,3 km,4 km
+70,"If in a mirror East becomes West then what will North become?",South,East,West,Same,Same
+71,"Statement: Some cars are bikes. All bikes are trucks. Conclusion: Some cars are trucks.",True,False,Cannot say,Either,True
+72,"Complete the series: 1 9 25 49 81 ?",100,121,144,169,121
+73,"Pointing to a photograph a man said 'I have no brothers or sisters but that man's father is my father's son.' Who is in the photograph?",His father,His son,His uncle,Himself,His son
+74,"In a certain code 246 means 'sky is blue' 357 means 'sea is deep' and 478 means 'blue sea water'. What number represents 'sea'?",4,5,7,8,7
+75,"If 'LION' = 50 and 'TIGER' = 70 then 'LEOPARD' = ?",90,100,110,120,100
+76,"Find the next term: 2 12 30 56 90 ?",132,140,150,156,132
+77,"If 8 * 2 = 80 6 * 3 = 72 9 * 4 = ? then what is the pattern?",90,96,99,84,96
+78,"A statement followed by assumptions is given. Statement: 'All managers are efficient.' Assumptions: (1) Some managers are not efficient. (2) Efficiency is desirable. Which is implicit?",Only 1,Only 2,Both,Neither,Only 2
+79,"If every second Saturday and every Sunday are holidays how many working days are there in a 31-day month starting on a Monday?",22,23,24,25,23
+80,"The day before yesterday was Sunday. What will be the day after 3 days from now?",Thursday,Friday,Saturday,Sunday,Friday
+82,"In a certain code FIGURE is written as EHGWTF. How is NUMBER written in that code?",MVLCFQ,OVNDGS,MVLDGS,NVMCFS,MVLDGS
+83,"A train running at 60 km/h crosses a pole in 18 seconds. What is the length of the train?",280 m,290 m,300 m,310 m,300 m
+84,"If A + B means A is the mother of B A – B means A is the father of B and A × B means A is the brother of B then what does P – Q × R mean?",P is the father of R,P is the uncle of R,P is the brother of R,P is the son of R,P is the uncle of R
+85,"In a certain code, PAPER is written as QZQFQ. How is BOARD written?",CPBSC,CPBSE,CQCRC,CPASC,CPBSC
+86,"If 7 × 8 = 225 5 × 6 = 61 and 9 × 10 = ?",180,181,182,183,181
+87,"A says to B 'Your father's wife's brother is my uncle.' How is B related to A?",Cousin,Brother,Nephew,Uncle,Cousin
+88,"Find the next number: 3 9 27 81 243 ?",486,729,648,972,729
+89,"In a family there are six members: A B C D E and F. A and B are married to each other. C is the brother of D. E is the daughter of B. F is the mother of D. How is F related to A?",Mother,Mother-in-law,Sister,Aunt,Mother-in-law
+90,"If 2 + 3 = 13 3 + 4 = 25 4 + 5 = 41 then 5 + 6 = ?",61,63,65,67,61
+91,"If 8 @ 4 = 48 10 @ 5 = 75 then 12 @ 6 = ?",108,112,120,132,108
+92,Arrange the words in a logical order: 1. College 2. School 3. Job 4. Exam 5. Interview,1 2 3 4 5,2 4 1 5 3,3 2 4 1 5,4 1 2 5 3,2 4 1 5 3
+93,"Find the missing term: AZ BY CX ? EV",DW,DW,FU,DU,DW
+94,"A man facing north turns 45° clockwise then 135° anticlockwise. Which direction is he facing now?",North,West,South-East,North-West,West
+95,"Find the odd one out: 13 17 23 27 31",13,17,23,27,27
+96,"If 4 + 5 = 41 5 + 6 = 61 and 6 + 7 = 85 then 7 + 8 = ?",111,113,115,117,113
+97,"If 'A ÷ B' means A is the father of B 'A × B' means A is the sister of B and 'A – B' means A is the mother of B then what does P ÷ Q × R mean?",P is the father of R,P is the uncle of R,P is the brother of R,P is the grandfather of R,P is the uncle of R
+98,"If 1 = 5 2 = 25 3 = 125 then 5 = ?",625,3125,15625,78125,3125
+99,"In a certain code 'EARTH' = 85182 'MOON' = 4153. What is 'SUN'?",193,192,182,193,193
+100,"Choose the odd one out: Square Rectangle Triangle Rhombus",Square,Rectangle,Triangle,Rhombus,Triangle
+101,"If 'WATER' = 23 'RIVER' = 24 then 'OCEAN' = ?",20,21,22,23,21
+102,"A clock gains 2 minutes every hour. After 6 hours what will be the time shown if it was set correctly at 12 noon?",6:10 pm,6:12 pm,6:15 pm,6:20 pm,6:12 pm
+103,"Which number should replace the question mark? 2 6 12 20 30 ?",36,40,42,44,42
+104,"A statement: 'All roses are flowers. Some flowers fade quickly.' Which conclusion follows?",All roses fade quickly,Some flowers are roses,No roses fade quickly,All flowers are roses,Some flowers are roses
+105,"If 5 + 3 = 28 6 + 4 = 40 7 + 5 = ?",52,56,60,62,72
+106,"If 'HEART' = 60 'BRAIN' = 70 then 'LUNGS' = ?",80,85,90,95,90
+107,"Find the missing number: 3 8 15 24 35 ?",48,49,50,51,48
+108,"If WHITE = 23 BLACK = 25 then RED = ?",20,21,22,23,21
+109,"If the code for 123 is 36 and for 234 is 60 then what is the code for 345?",84,86,90,92,90
+110,"A travels 10 km north turns left walks 6 km turns right walks 8 km then turns right again and walks 6 km. How far is he from the starting point?",8 km,10 km,12 km,14 km,10 km
