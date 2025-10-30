@@ -17,7 +17,77 @@
   flex: 1 0 auto;
   padding: 2rem;
   background: white; /* keep content area white */
-  min-height: calc(100vh - 100px); /* ensure it covers full height minus header */
+}
+
+/* Hero banner with background image */
+.hero-banner {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url('/kl-mat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 3rem 4rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.hero-login-btn {
+  background: #880000;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(136, 0, 0, 0.3);
+}
+
+.hero-login-btn:hover {
+  background: #990000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(136, 0, 0, 0.4);
 }
 
 /* make sure the page background is white full-bleed */
@@ -525,6 +595,28 @@ body {
   
   .app-content {
     padding: 1rem;
+  }
+  
+  .hero-banner {
+    height: calc(100vh - 140px);
+  }
+  
+  .hero-content {
+    padding: 2rem 2rem;
+    border-radius: 15px;
+  }
+  
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .hero-login-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
   }
   
   .generate-wrap {

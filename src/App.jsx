@@ -407,6 +407,16 @@ function App() {
         onAdminClick={() => setShowAdminPanel(true)}
       />
       {showLogin && <LoginForm onLogin={handleLogin} onClose={() => setShowLogin(false)} />}
+      
+      {!user && !showLogin && (
+        <div className="hero-banner">
+          <div className="hero-content">
+            <h1>Welcome to KL Exam Portal</h1>
+            <p>Prepare for your entrance exams with our comprehensive question bank</p>
+          </div>
+        </div>
+      )}
+      
       <main className="app-content">
         {showHistory && (
           <History 
