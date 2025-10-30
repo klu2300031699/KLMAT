@@ -184,7 +184,7 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
       // Add space after question before options
       yPosition += 1.5
       
-      // Options - format exactly like reference image
+      // Options - Smart layout with priority: 4 in 1 line > 2 per line > 1 per line
       const options = [
         { label: '(a)', text: q['Option 1'] },
         { label: '(b)', text: q['Option 2'] },
@@ -192,71 +192,87 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
         { label: '(d)', text: q['Option 4'] }
       ]
       
-      // Consistent left alignment for all options (matching reference image)
+      // Consistent left alignment for all options
       const optionIndent = margin + questionNumWidth
-      const halfWidth = (maxWidth - questionNumWidth) / 2
+      const availableWidth = maxWidth - questionNumWidth
+      const optionSpacing = '     ' // Spacing between options on same line
       
-      // Try to fit 2 options per line like in reference image
-      // First line: (a) and (b)
-      // Second line: (c) and (d)
+      // Build full option texts
+      const optionTexts = options.map(opt => `${opt.label} ${opt.text}`)
+      const optionWidths = optionTexts.map(text => doc.getTextWidth(text))
       
-      const optionAText = `${options[0].label} ${options[0].text}`
-      const optionBText = `${options[1].label} ${options[1].text}`
-      const optionCText = `${options[2].label} ${options[2].text}`
-      const optionDText = `${options[3].label} ${options[3].text}`
+      // PRIORITY 1: Try to fit all 4 options on ONE line
+      const allOptionsOneLine = optionTexts.join(optionSpacing)
+      const allOptionsWidth = doc.getTextWidth(allOptionsOneLine)
       
-      const optionAWidth = doc.getTextWidth(optionAText)
-      const optionBWidth = doc.getTextWidth(optionBText)
-      const optionCWidth = doc.getTextWidth(optionCText)
-      const optionDWidth = doc.getTextWidth(optionDText)
-      
-      // Check if we can fit 2 options per line
-      const canFitTwoPerLine = (optionAWidth + optionBWidth + 20) <= (maxWidth - questionNumWidth) &&
-                               (optionCWidth + optionDWidth + 20) <= (maxWidth - questionNumWidth)
-      
-      if (canFitTwoPerLine) {
-        // Display options exactly like reference image: 2 per line
-        if (yPosition > pageHeight - 35) {
+      if (allOptionsWidth <= availableWidth) {
+        // All 4 options fit on one line - BEST CASE
+        if (yPosition > pageHeight - 30) {
           doc.addPage()
           addPageHeader(subject, false)
         }
-        
-        // First line: (a) and (b)
-        doc.text(optionAText, optionIndent, yPosition)
-        const optionBStartX = optionIndent + halfWidth
-        doc.text(optionBText, optionBStartX, yPosition)
-        yPosition += 4.5
-        
-        // Second line: (c) and (d)
-        doc.text(optionCText, optionIndent, yPosition)
-        const optionDStartX = optionIndent + halfWidth
-        doc.text(optionDText, optionDStartX, yPosition)
+        doc.text(allOptionsOneLine, optionIndent, yPosition)
         yPosition += 4.5
       } else {
-        // Fall back to 4 options per line or individual lines
-        const allOptionsText = `${optionAText}     ${optionBText}     ${optionCText}     ${optionDText}`
-        const allOptionsWidth = doc.getTextWidth(allOptionsText)
+        // PRIORITY 2: Try 2 options per line (a,b on line 1; c,d on line 2)
+        const columnGap = 10
+        const columnWidth = (availableWidth - columnGap) / 2
         
-        if (allOptionsWidth <= (maxWidth - questionNumWidth)) {
-          // All 4 options on one line
-          if (yPosition > pageHeight - 30) {
+        // Check if option pairs fit in their respective columns
+        const optionAFits = optionWidths[0] <= columnWidth
+        const optionBFits = optionWidths[1] <= columnWidth
+        const optionCFits = optionWidths[2] <= columnWidth
+        const optionDFits = optionWidths[3] <= columnWidth
+        
+        const firstLineFits = optionAFits && optionBFits
+        const secondLineFits = optionCFits && optionDFits
+        
+        if (firstLineFits && secondLineFits) {
+          // Both lines fit - display 2 options per line
+          if (yPosition > pageHeight - 35) {
             doc.addPage()
             addPageHeader(subject, false)
           }
-          doc.text(allOptionsText, optionIndent, yPosition)
+          
+          const leftColumnX = optionIndent
+          const rightColumnX = optionIndent + columnWidth + columnGap
+          
+          // First line: (a) and (b)
+          doc.text(optionTexts[0], leftColumnX, yPosition)
+          doc.text(optionTexts[1], rightColumnX, yPosition)
+          yPosition += 4.5
+          
+          // Second line: (c) and (d)
+          doc.text(optionTexts[2], leftColumnX, yPosition)
+          doc.text(optionTexts[3], rightColumnX, yPosition)
           yPosition += 4.5
         } else {
-          // Each option on separate line
+          // PRIORITY 3: Display each option on its own line (FALLBACK)
           options.forEach(opt => {
             if (yPosition > pageHeight - 30) {
               doc.addPage()
               addPageHeader(subject, false)
             }
-            const optionText = `${opt.label} ${opt.text}`
-            const optionLines = doc.splitTextToSize(optionText, maxWidth - questionNumWidth)
-            optionLines.forEach((line, lineIdx) => {
-              const lineIndent = lineIdx === 0 ? optionIndent : optionIndent + 10
-              doc.text(line, lineIndent, yPosition)
+            
+            // Calculate the width of the label to align continuation lines
+            const labelWidth = doc.getTextWidth(`${opt.label} `)
+            
+            // Split only the text part (without label) to get proper wrapping
+            const textLines = doc.splitTextToSize(opt.text, availableWidth - labelWidth)
+            
+            textLines.forEach((line, lineIdx) => {
+              if (yPosition > pageHeight - 30) {
+                doc.addPage()
+                addPageHeader(subject, false)
+              }
+              
+              if (lineIdx === 0) {
+                // First line: show label + text
+                doc.text(`${opt.label} ${line}`, optionIndent, yPosition)
+              } else {
+                // Continuation lines: align with start of text (after label)
+                doc.text(line, optionIndent + labelWidth, yPosition)
+              }
               yPosition += 4.5
             })
           })
