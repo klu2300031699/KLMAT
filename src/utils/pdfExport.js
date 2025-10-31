@@ -60,7 +60,7 @@ export function exportQuestionsToPDF(questions, fileName, includeAnswers = false
     const yearBoxX = margin
     const yearBoxY = 10
     doc.roundedRect(yearBoxX, yearBoxY, yearBoxWidth, yearBoxHeight, radius, radius)
-    doc.text('2025', yearBoxX + yearBoxWidth / 2, yearBoxY + 8, { align: 'center' })
+    doc.text('2026', yearBoxX + yearBoxWidth / 2, yearBoxY + 8, { align: 'center' })
     
   // Set name in top right corner (matching year box size and style)
   const setBoxWidth = 25
