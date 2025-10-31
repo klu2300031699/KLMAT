@@ -7,7 +7,7 @@ import QuizMode from './components/QuizMode'
 import QuizHistory from './components/QuizHistory'
 import QuizReview from './components/QuizReview'
 import AdminPanel from './components/AdminPanel'
-import { exportQuestionsToPDF } from './utils/pdfExport'
+import { exportQuestionsToPDF, exportMultipleSetsToPDF } from './utils/pdfExport'
 
 // Utility: parse simple CSV text to array of objects
 function parseCSV(text) {
@@ -264,6 +264,18 @@ function App() {
     // Export as PDF with answers
     const examDuration = selectedExam ? selectedExam.duration : null
     exportQuestionsToPDF(questions, fileName, true, examDuration)
+  }
+
+  function handleDownloadMultipleSets() {
+    // Export multiple sets (A, B, C, D) without answers
+    const examDuration = selectedExam ? selectedExam.duration : null
+    exportMultipleSetsToPDF(questions, fileName, false, examDuration)
+  }
+
+  function handleDownloadMultipleSetsWithAnswers() {
+    // Export multiple sets (A, B, C, D) with answers
+    const examDuration = selectedExam ? selectedExam.duration : null
+    exportMultipleSetsToPDF(questions, fileName, true, examDuration)
   }
 
   async function handleGenerateSet() {
@@ -581,10 +593,16 @@ function App() {
                         </div>
                         <div className="export-buttons">
                           <button className="export-btn download-set-btn" onClick={handleDownloadSet}>
-                            📄 PDF Questions
+                            📄 Download Set
                           </button>
                           <button className="export-btn answer-set-btn" onClick={handleDownloadAnswers}>
-                            📄 PDF with Answers
+                            📄 Download Set-Key
+                          </button>
+                           <button className="export-btn download-set-btn" onClick={handleDownloadMultipleSets}>
+                            📄 Download Multiple Sets
+                          </button>
+                           <button className="export-btn download-set-btn" onClick={handleDownloadMultipleSetsWithAnswers}>
+                            📄 Download Multiple Sets-Key
                           </button>
                         </div>
                       </div>

@@ -423,6 +423,49 @@ body {
   background: #17a2b8;
 }
 
+.generate-all-btn {
+  background: #6f42c1;
+  white-space: nowrap;
+}
+
+.generate-all-btn:hover:not(:disabled) {
+  background: #5a32a3;
+}
+
+.generate-all-btn:disabled {
+  background: #9b7ec5;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Set information box */
+.set-info-box {
+  background: #e7f3ff;
+  border-left: 4px solid #007bff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.set-info-box .info-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.set-info-box .info-text {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #004085;
+}
+
+.set-info-box .info-text strong {
+  color: #003366;
+}
+
 .download-all-answers-btn:hover {
   background: #117a8b;
 }

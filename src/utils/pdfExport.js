@@ -1,6 +1,16 @@
 import jsPDF from 'jspdf'
 import 'jspdf-autotable'
 
+// Helper function to shuffle array
+function shuffleArray(array) {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
+
 export function exportQuestionsToPDF(questions, fileName, includeAnswers = false, examDuration = null) {
   const doc = new jsPDF()
   const pageWidth = doc.internal.pageSize.width
@@ -410,4 +420,39 @@ export function exportAnswerKeyToPDF(questions, fileName) {
   
   // Save the PDF
   doc.save(`${fileName}_answer_key.pdf`)
+}
+
+// Export multiple sets (A, B, C, D) with shuffled questions
+export function exportMultipleSetsToPDF(questions, baseFileName, includeAnswers = false, examDuration = null) {
+  // Extract base set number (e.g., "SET-1" from "SET-1A")
+  const baseSetMatch = baseFileName.match(/^(SET-\d+)/)
+  const baseSet = baseSetMatch ? baseSetMatch[1] : 'SET-1'
+  
+  const setVariants = ['A', 'B', 'C', 'D']
+  
+  // Group questions by subject to maintain subject-wise shuffling
+  const questionsBySubject = {}
+  questions.forEach((q) => {
+    if (!questionsBySubject[q.subject]) {
+      questionsBySubject[q.subject] = []
+    }
+    questionsBySubject[q.subject].push({ ...q })
+  })
+  
+  // Generate each set variant
+  setVariants.forEach((variant) => {
+    const setName = `${baseSet}${variant}`
+    
+    // Shuffle questions within each subject
+    const shuffledQuestions = []
+    Object.keys(questionsBySubject).forEach((subject) => {
+      const subjectQuestions = shuffleArray(questionsBySubject[subject])
+      shuffledQuestions.push(...subjectQuestions)
+    })
+    
+    // Export this set variant
+    exportQuestionsToPDF(shuffledQuestions, setName, includeAnswers, examDuration)
+  })
+  
+  alert(`Successfully generated 4 sets: ${baseSet}A, ${baseSet}B, ${baseSet}C, ${baseSet}D`)
 }
